@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././Config/DEV_Config.h
+stdint.h
+-
+stdio.h
+-
+
+.././Config/Debug.h
+stdio.h
+-
+
+/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.c
+EPD_2in7.h
+/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.h
+Debug.h
+/tmp/tmp.dWNnAVq7yL/ePaper/Debug.h
+
+/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.h
+DEV_Config.h
+/tmp/tmp.dWNnAVq7yL/ePaper/DEV_Config.h
+

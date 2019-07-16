@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibFonts.a  CMakeFiles/libFonts.dir/font12.c.o CMakeFiles/libFonts.dir/font12CN.c.o CMakeFiles/libFonts.dir/font16.c.o CMakeFiles/libFonts.dir/font20.c.o CMakeFiles/libFonts.dir/font24.c.o CMakeFiles/libFonts.dir/font24CN.c.o CMakeFiles/libFonts.dir/font8.c.o
+/usr/bin/ranlib liblibFonts.a

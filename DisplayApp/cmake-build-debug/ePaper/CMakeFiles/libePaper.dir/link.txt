@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibePaper.a  CMakeFiles/libePaper.dir/EPD_2in7.c.o
+/usr/bin/ranlib liblibePaper.a

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font12.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font16.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font20.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font24.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/font8.c
+fonts.h
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+
+/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+stdint.h
+-
+

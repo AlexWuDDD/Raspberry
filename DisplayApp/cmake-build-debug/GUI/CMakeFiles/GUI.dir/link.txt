@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libGUI.a  CMakeFiles/GUI.dir/GUI_BMPfile.c.o CMakeFiles/GUI.dir/GUI_Paint.c.o
+/usr/bin/ranlib ../lib/libGUI.a

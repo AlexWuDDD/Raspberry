@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DisplayApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DisplayApp">
+				<Option output="/tmp/tmp.dWNnAVq7yL/cmake-build-debug/DisplayApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./ePaper"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Fonts"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./GUI"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DisplayApp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DisplayApp/fast">
+				<Option output="/tmp/tmp.dWNnAVq7yL/cmake-build-debug/DisplayApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./ePaper"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Fonts"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./GUI"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DisplayApp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Config/DEV_Config.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Config/DEV_Config.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Config/Debug.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font12.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font16.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font20.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font24.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font8.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/fonts.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/GUI/GUI_BMPfile.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/GUI/GUI_BMPfile.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/GUI/GUI_Paint.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/GUI/GUI_Paint.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/main.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/test.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/test.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

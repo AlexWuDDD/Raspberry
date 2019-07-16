@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Raspberry (8dc654fb-b37a-4561-ab4f-5e7c8d8244ad)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.dWNnAVq7yL" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="Remote Host (0dbab00e-9dc3-4c1e-88fa-97e8ae204445)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.B0oWTYmajn" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
