@@ -10,6 +10,9 @@ CMakeFiles/DisplayApp.dir/Config/DEV_Config.c.o
 CMakeFiles/DisplayApp.dir/Fonts/font12.c.o
  /tmp/tmp.dWNnAVq7yL/Fonts/font12.c
  /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o
+ /tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c
+ /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
 CMakeFiles/DisplayApp.dir/Fonts/font16.c.o
  /tmp/tmp.dWNnAVq7yL/Fonts/font16.c
  /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
@@ -18,6 +21,9 @@ CMakeFiles/DisplayApp.dir/Fonts/font20.c.o
  /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
 CMakeFiles/DisplayApp.dir/Fonts/font24.c.o
  /tmp/tmp.dWNnAVq7yL/Fonts/font24.c
+ /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
+CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o
+ /tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c
  /tmp/tmp.dWNnAVq7yL/Fonts/fonts.h
 CMakeFiles/DisplayApp.dir/Fonts/font8.c.o
  /tmp/tmp.dWNnAVq7yL/Fonts/font8.c
@@ -40,16 +46,52 @@ CMakeFiles/DisplayApp.dir/ePaper/EPD_2in7.c.o
  .././Config/Debug.h
  /tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.c
  /tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.h
+CMakeFiles/DisplayApp.dir/HW.cpp.o
+ /tmp/tmp.dWNnAVq7yL/HW.cpp
+ /tmp/tmp.dWNnAVq7yL/HW.hpp
+CMakeFiles/DisplayApp.dir/SysInfo.cpp.o
+ /tmp/tmp.dWNnAVq7yL/SysInfo.cpp
+ /tmp/tmp.dWNnAVq7yL/SysInfo.h
+ /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
+CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o
+ /tmp/tmp.dWNnAVq7yL/SysInfo.h
+ /tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp
+ /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
+CMakeFiles/DisplayApp.dir/app.cpp.o
+ .././Config/DEV_Config.h
+ .././Config/Debug.h
+ .././Fonts/fonts.h
+ .././GUI/GUI_BMPfile.h
+ .././GUI/GUI_Paint.h
+ .././ePaper/EPD_2in7.h
+ /tmp/tmp.dWNnAVq7yL/HW.hpp
+ /tmp/tmp.dWNnAVq7yL/SysInfo.h
+ /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
+ /tmp/tmp.dWNnAVq7yL/app.cpp
+ /tmp/tmp.dWNnAVq7yL/app.h
+ /tmp/tmp.dWNnAVq7yL/test.h
+ /usr/local/include/wiringPi.h
 CMakeFiles/DisplayApp.dir/main.cpp.o
  .././Config/DEV_Config.h
+ .././Config/Debug.h
+ .././Fonts/fonts.h
+ .././GUI/GUI_BMPfile.h
+ .././GUI/GUI_Paint.h
  .././ePaper/EPD_2in7.h
+ /tmp/tmp.dWNnAVq7yL/HW.hpp
+ /tmp/tmp.dWNnAVq7yL/SysInfo.h
+ /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
+ /tmp/tmp.dWNnAVq7yL/app.h
  /tmp/tmp.dWNnAVq7yL/main.cpp
  /tmp/tmp.dWNnAVq7yL/test.h
+ /usr/local/include/wiringPi.h
 CMakeFiles/DisplayApp.dir/test.cpp.o
  .././Config/DEV_Config.h
  .././Fonts/fonts.h
  .././GUI/GUI_BMPfile.h
  .././GUI/GUI_Paint.h
  .././ePaper/EPD_2in7.h
+ /tmp/tmp.dWNnAVq7yL/HW.hpp
  /tmp/tmp.dWNnAVq7yL/test.cpp
  /tmp/tmp.dWNnAVq7yL/test.h
+ /usr/local/include/wiringPi.h

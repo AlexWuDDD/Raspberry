@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_FLAGS = -g  
 
-C_DEFINES = -DUSE_WIRINGPI_LIB
+C_DEFINES = -DDEBUG -DUSE_WIRINGPI_LIB
 
 C_INCLUDES = -I/usr/local/include -I/tmp/tmp.dWNnAVq7yL/. -I/tmp/tmp.dWNnAVq7yL/./Config -I/tmp/tmp.dWNnAVq7yL/./ePaper -I/tmp/tmp.dWNnAVq7yL/./Fonts -I/tmp/tmp.dWNnAVq7yL/./GUI 
 
 CXX_FLAGS = -g  
 
-CXX_DEFINES = -DUSE_WIRINGPI_LIB
+CXX_DEFINES = -DDEBUG -DUSE_WIRINGPI_LIB
 
 CXX_INCLUDES = -I/usr/local/include -I/tmp/tmp.dWNnAVq7yL/. -I/tmp/tmp.dWNnAVq7yL/./Config -I/tmp/tmp.dWNnAVq7yL/./ePaper -I/tmp/tmp.dWNnAVq7yL/./Fonts -I/tmp/tmp.dWNnAVq7yL/./GUI 
 

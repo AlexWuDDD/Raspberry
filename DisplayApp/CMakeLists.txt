@@ -20,7 +20,7 @@ include_directories(${INC_DIR}
 link_directories(${LINK_DIR})
 
 #add_definitions(-DUSE_BCM2835_LIB)
-add_definitions(-DUSE_WIRINGPI_LIB)
+add_definitions(-DUSE_WIRINGPI_LIB -DDEBUG)
 
 add_executable(DisplayApp main.cpp
         test.cpp test.h
@@ -28,6 +28,7 @@ add_executable(DisplayApp main.cpp
         ePaper/EPD_2in7.c ePaper/EPD_2in7.h
         GUI/GUI_BMPfile.c GUI/GUI_BMPfile.h
         GUI/GUI_Paint.c GUI/GUI_Paint.h
-        Fonts/font8.c Fonts/font12.c Fonts/font16.c Fonts/font20.c Fonts/font24.c
-        Fonts/fonts.h)
-target_link_libraries(DisplayApp bcm2835 wiringPi)
+        Fonts/font8.c Fonts/font12.c Fonts/font12CN.c Fonts/font16.c Fonts/font20.c Fonts/font24.c Fonts/font24CN.c
+        Fonts/fonts.h HW.hpp
+        app.h app.cpp SysInfo.cpp SysInfo.h SysInfoLinux.cpp SysInfoLinux.h HW.cpp)
+target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread)

@@ -6,27 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/tmp/tmp.dWNnAVq7yL/Config/DEV_Config.c
-DEV_Config.h
-/tmp/tmp.dWNnAVq7yL/Config/DEV_Config.h
-bcm2835.h
--
-wiringPi.h
--
-wiringPiSPI.h
--
-
-/tmp/tmp.dWNnAVq7yL/Config/DEV_Config.h
-stdint.h
--
-stdio.h
--
-
-/usr/local/include/bcm2835.h
-stdint.h
--
-
-/usr/local/include/wiringPi.h
-
-/usr/local/include/wiringPiSPI.h
-

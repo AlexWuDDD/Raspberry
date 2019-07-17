@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add option="-DDEBUG"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
 					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
@@ -64,6 +65,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add option="-DDEBUG"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
 					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
@@ -108,6 +110,9 @@
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font12.c">
 			<Option target="DisplayApp"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c">
+			<Option target="DisplayApp"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font16.c">
 			<Option target="DisplayApp"/>
 		</Unit>
@@ -115,6 +120,9 @@
 			<Option target="DisplayApp"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font24.c">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c">
 			<Option target="DisplayApp"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/Fonts/font8.c">
@@ -133,6 +141,30 @@
 			<Option target="DisplayApp"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/GUI/GUI_Paint.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/HW.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/HW.hpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/SysInfo.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/SysInfo.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/SysInfoLinux.h">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/app.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/app.h">
 			<Option target="DisplayApp"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.c">

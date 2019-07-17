@@ -10,5 +10,7 @@
 
 
 void alexTest1();
-
+void alexTest2();
+void alexTest3();
+void alexTest4();
 #endif //DISPLAYAPP_TEST_H

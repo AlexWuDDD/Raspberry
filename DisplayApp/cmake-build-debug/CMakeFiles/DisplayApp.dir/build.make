@@ -161,9 +161,22 @@ CMakeFiles/DisplayApp.dir/Fonts/font12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DisplayApp.dir/Fonts/font12.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.dWNnAVq7yL/Fonts/font12.c -o CMakeFiles/DisplayApp.dir/Fonts/font12.c.s
 
+CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o: ../Fonts/font12CN.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o   -c /tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c
+
+CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c > CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.i
+
+CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.dWNnAVq7yL/Fonts/font12CN.c -o CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.s
+
 CMakeFiles/DisplayApp.dir/Fonts/font16.c.o: CMakeFiles/DisplayApp.dir/flags.make
 CMakeFiles/DisplayApp.dir/Fonts/font16.c.o: ../Fonts/font16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DisplayApp.dir/Fonts/font16.c.o   -c /tmp/tmp.dWNnAVq7yL/Fonts/font16.c
 
 CMakeFiles/DisplayApp.dir/Fonts/font16.c.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/DisplayApp.dir/Fonts/font16.c.s: cmake_force
 
 CMakeFiles/DisplayApp.dir/Fonts/font20.c.o: CMakeFiles/DisplayApp.dir/flags.make
 CMakeFiles/DisplayApp.dir/Fonts/font20.c.o: ../Fonts/font20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DisplayApp.dir/Fonts/font20.c.o   -c /tmp/tmp.dWNnAVq7yL/Fonts/font20.c
 
 CMakeFiles/DisplayApp.dir/Fonts/font20.c.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/DisplayApp.dir/Fonts/font20.c.s: cmake_force
 
 CMakeFiles/DisplayApp.dir/Fonts/font24.c.o: CMakeFiles/DisplayApp.dir/flags.make
 CMakeFiles/DisplayApp.dir/Fonts/font24.c.o: ../Fonts/font24.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font24.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font24.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DisplayApp.dir/Fonts/font24.c.o   -c /tmp/tmp.dWNnAVq7yL/Fonts/font24.c
 
 CMakeFiles/DisplayApp.dir/Fonts/font24.c.i: cmake_force
@@ -199,6 +212,71 @@ CMakeFiles/DisplayApp.dir/Fonts/font24.c.i: cmake_force
 CMakeFiles/DisplayApp.dir/Fonts/font24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DisplayApp.dir/Fonts/font24.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.dWNnAVq7yL/Fonts/font24.c -o CMakeFiles/DisplayApp.dir/Fonts/font24.c.s
+
+CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o: ../Fonts/font24CN.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o   -c /tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c
+
+CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c > CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.i
+
+CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.dWNnAVq7yL/Fonts/font24CN.c -o CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.s
+
+CMakeFiles/DisplayApp.dir/app.cpp.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/app.cpp.o: ../app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DisplayApp.dir/app.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayApp.dir/app.cpp.o -c /tmp/tmp.dWNnAVq7yL/app.cpp
+
+CMakeFiles/DisplayApp.dir/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayApp.dir/app.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dWNnAVq7yL/app.cpp > CMakeFiles/DisplayApp.dir/app.cpp.i
+
+CMakeFiles/DisplayApp.dir/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayApp.dir/app.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dWNnAVq7yL/app.cpp -o CMakeFiles/DisplayApp.dir/app.cpp.s
+
+CMakeFiles/DisplayApp.dir/SysInfo.cpp.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/SysInfo.cpp.o: ../SysInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DisplayApp.dir/SysInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayApp.dir/SysInfo.cpp.o -c /tmp/tmp.dWNnAVq7yL/SysInfo.cpp
+
+CMakeFiles/DisplayApp.dir/SysInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayApp.dir/SysInfo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dWNnAVq7yL/SysInfo.cpp > CMakeFiles/DisplayApp.dir/SysInfo.cpp.i
+
+CMakeFiles/DisplayApp.dir/SysInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayApp.dir/SysInfo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dWNnAVq7yL/SysInfo.cpp -o CMakeFiles/DisplayApp.dir/SysInfo.cpp.s
+
+CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o: ../SysInfoLinux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o -c /tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp
+
+CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp > CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.i
+
+CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp -o CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.s
+
+CMakeFiles/DisplayApp.dir/HW.cpp.o: CMakeFiles/DisplayApp.dir/flags.make
+CMakeFiles/DisplayApp.dir/HW.cpp.o: ../HW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DisplayApp.dir/HW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayApp.dir/HW.cpp.o -c /tmp/tmp.dWNnAVq7yL/HW.cpp
+
+CMakeFiles/DisplayApp.dir/HW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayApp.dir/HW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dWNnAVq7yL/HW.cpp > CMakeFiles/DisplayApp.dir/HW.cpp.i
+
+CMakeFiles/DisplayApp.dir/HW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayApp.dir/HW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dWNnAVq7yL/HW.cpp -o CMakeFiles/DisplayApp.dir/HW.cpp.s
 
 # Object files for target DisplayApp
 DisplayApp_OBJECTS = \
@@ -210,9 +288,15 @@ DisplayApp_OBJECTS = \
 "CMakeFiles/DisplayApp.dir/GUI/GUI_Paint.c.o" \
 "CMakeFiles/DisplayApp.dir/Fonts/font8.c.o" \
 "CMakeFiles/DisplayApp.dir/Fonts/font12.c.o" \
+"CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o" \
 "CMakeFiles/DisplayApp.dir/Fonts/font16.c.o" \
 "CMakeFiles/DisplayApp.dir/Fonts/font20.c.o" \
-"CMakeFiles/DisplayApp.dir/Fonts/font24.c.o"
+"CMakeFiles/DisplayApp.dir/Fonts/font24.c.o" \
+"CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o" \
+"CMakeFiles/DisplayApp.dir/app.cpp.o" \
+"CMakeFiles/DisplayApp.dir/SysInfo.cpp.o" \
+"CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o" \
+"CMakeFiles/DisplayApp.dir/HW.cpp.o"
 
 # External object files for target DisplayApp
 DisplayApp_EXTERNAL_OBJECTS =
@@ -225,12 +309,18 @@ DisplayApp: CMakeFiles/DisplayApp.dir/GUI/GUI_BMPfile.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/GUI/GUI_Paint.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font8.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font12.c.o
+DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font16.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font20.c.o
 DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font24.c.o
+DisplayApp: CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o
+DisplayApp: CMakeFiles/DisplayApp.dir/app.cpp.o
+DisplayApp: CMakeFiles/DisplayApp.dir/SysInfo.cpp.o
+DisplayApp: CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o
+DisplayApp: CMakeFiles/DisplayApp.dir/HW.cpp.o
 DisplayApp: CMakeFiles/DisplayApp.dir/build.make
 DisplayApp: CMakeFiles/DisplayApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable DisplayApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable DisplayApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DisplayApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

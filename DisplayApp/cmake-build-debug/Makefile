@@ -177,6 +177,33 @@ Fonts/font12.c.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font12.c.s
 .PHONY : Fonts/font12.c.s
 
+Fonts/font12CN.o: Fonts/font12CN.c.o
+
+.PHONY : Fonts/font12CN.o
+
+# target to build an object file
+Fonts/font12CN.c.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.o
+.PHONY : Fonts/font12CN.c.o
+
+Fonts/font12CN.i: Fonts/font12CN.c.i
+
+.PHONY : Fonts/font12CN.i
+
+# target to preprocess a source file
+Fonts/font12CN.c.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.i
+.PHONY : Fonts/font12CN.c.i
+
+Fonts/font12CN.s: Fonts/font12CN.c.s
+
+.PHONY : Fonts/font12CN.s
+
+# target to generate assembly for a file
+Fonts/font12CN.c.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font12CN.c.s
+.PHONY : Fonts/font12CN.c.s
+
 Fonts/font16.o: Fonts/font16.c.o
 
 .PHONY : Fonts/font16.o
@@ -258,6 +285,33 @@ Fonts/font24.c.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font24.c.s
 .PHONY : Fonts/font24.c.s
 
+Fonts/font24CN.o: Fonts/font24CN.c.o
+
+.PHONY : Fonts/font24CN.o
+
+# target to build an object file
+Fonts/font24CN.c.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.o
+.PHONY : Fonts/font24CN.c.o
+
+Fonts/font24CN.i: Fonts/font24CN.c.i
+
+.PHONY : Fonts/font24CN.i
+
+# target to preprocess a source file
+Fonts/font24CN.c.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.i
+.PHONY : Fonts/font24CN.c.i
+
+Fonts/font24CN.s: Fonts/font24CN.c.s
+
+.PHONY : Fonts/font24CN.s
+
+# target to generate assembly for a file
+Fonts/font24CN.c.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/Fonts/font24CN.c.s
+.PHONY : Fonts/font24CN.c.s
+
 Fonts/font8.o: Fonts/font8.c.o
 
 .PHONY : Fonts/font8.o
@@ -338,6 +392,114 @@ GUI/GUI_Paint.s: GUI/GUI_Paint.c.s
 GUI/GUI_Paint.c.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/GUI/GUI_Paint.c.s
 .PHONY : GUI/GUI_Paint.c.s
+
+HW.o: HW.cpp.o
+
+.PHONY : HW.o
+
+# target to build an object file
+HW.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/HW.cpp.o
+.PHONY : HW.cpp.o
+
+HW.i: HW.cpp.i
+
+.PHONY : HW.i
+
+# target to preprocess a source file
+HW.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/HW.cpp.i
+.PHONY : HW.cpp.i
+
+HW.s: HW.cpp.s
+
+.PHONY : HW.s
+
+# target to generate assembly for a file
+HW.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/HW.cpp.s
+.PHONY : HW.cpp.s
+
+SysInfo.o: SysInfo.cpp.o
+
+.PHONY : SysInfo.o
+
+# target to build an object file
+SysInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfo.cpp.o
+.PHONY : SysInfo.cpp.o
+
+SysInfo.i: SysInfo.cpp.i
+
+.PHONY : SysInfo.i
+
+# target to preprocess a source file
+SysInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfo.cpp.i
+.PHONY : SysInfo.cpp.i
+
+SysInfo.s: SysInfo.cpp.s
+
+.PHONY : SysInfo.s
+
+# target to generate assembly for a file
+SysInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfo.cpp.s
+.PHONY : SysInfo.cpp.s
+
+SysInfoLinux.o: SysInfoLinux.cpp.o
+
+.PHONY : SysInfoLinux.o
+
+# target to build an object file
+SysInfoLinux.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o
+.PHONY : SysInfoLinux.cpp.o
+
+SysInfoLinux.i: SysInfoLinux.cpp.i
+
+.PHONY : SysInfoLinux.i
+
+# target to preprocess a source file
+SysInfoLinux.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.i
+.PHONY : SysInfoLinux.cpp.i
+
+SysInfoLinux.s: SysInfoLinux.cpp.s
+
+.PHONY : SysInfoLinux.s
+
+# target to generate assembly for a file
+SysInfoLinux.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.s
+.PHONY : SysInfoLinux.cpp.s
+
+app.o: app.cpp.o
+
+.PHONY : app.o
+
+# target to build an object file
+app.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/app.cpp.o
+.PHONY : app.cpp.o
+
+app.i: app.cpp.i
+
+.PHONY : app.i
+
+# target to preprocess a source file
+app.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/app.cpp.i
+.PHONY : app.cpp.i
+
+app.s: app.cpp.s
+
+.PHONY : app.s
+
+# target to generate assembly for a file
+app.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/app.cpp.s
+.PHONY : app.cpp.s
 
 ePaper/EPD_2in7.o: ePaper/EPD_2in7.c.o
 
@@ -435,6 +597,9 @@ help:
 	@echo "... Fonts/font12.o"
 	@echo "... Fonts/font12.i"
 	@echo "... Fonts/font12.s"
+	@echo "... Fonts/font12CN.o"
+	@echo "... Fonts/font12CN.i"
+	@echo "... Fonts/font12CN.s"
 	@echo "... Fonts/font16.o"
 	@echo "... Fonts/font16.i"
 	@echo "... Fonts/font16.s"
@@ -444,6 +609,9 @@ help:
 	@echo "... Fonts/font24.o"
 	@echo "... Fonts/font24.i"
 	@echo "... Fonts/font24.s"
+	@echo "... Fonts/font24CN.o"
+	@echo "... Fonts/font24CN.i"
+	@echo "... Fonts/font24CN.s"
 	@echo "... Fonts/font8.o"
 	@echo "... Fonts/font8.i"
 	@echo "... Fonts/font8.s"
@@ -453,6 +621,18 @@ help:
 	@echo "... GUI/GUI_Paint.o"
 	@echo "... GUI/GUI_Paint.i"
 	@echo "... GUI/GUI_Paint.s"
+	@echo "... HW.o"
+	@echo "... HW.i"
+	@echo "... HW.s"
+	@echo "... SysInfo.o"
+	@echo "... SysInfo.i"
+	@echo "... SysInfo.s"
+	@echo "... SysInfoLinux.o"
+	@echo "... SysInfoLinux.i"
+	@echo "... SysInfoLinux.s"
+	@echo "... app.o"
+	@echo "... app.i"
+	@echo "... app.s"
 	@echo "... ePaper/EPD_2in7.o"
 	@echo "... ePaper/EPD_2in7.i"
 	@echo "... ePaper/EPD_2in7.s"
