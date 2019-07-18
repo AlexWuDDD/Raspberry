@@ -30,5 +30,6 @@ add_executable(DisplayApp main.cpp
         GUI/GUI_Paint.c GUI/GUI_Paint.h
         Fonts/font8.c Fonts/font12.c Fonts/font12CN.c Fonts/font16.c Fonts/font20.c Fonts/font24.c Fonts/font24CN.c
         Fonts/fonts.h HW.hpp
-        app.h app.cpp SysInfo.cpp SysInfo.h SysInfoLinux.cpp SysInfoLinux.h HW.cpp)
-target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread)
+        app.h app.cpp SysInfo.cpp SysInfo.h SysInfoLinux.cpp SysInfoLinux.h HW.cpp
+        libcurl/libcurl.h libcurl/libcurl.cpp)
+target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread curl)

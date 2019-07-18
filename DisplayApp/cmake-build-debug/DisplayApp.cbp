@@ -173,6 +173,12 @@
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.h">
 			<Option target="DisplayApp"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/libcurl/libcurl.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h">
+			<Option target="DisplayApp"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/main.cpp">
 			<Option target="DisplayApp"/>
 		</Unit>

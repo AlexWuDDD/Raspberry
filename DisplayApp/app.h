@@ -15,6 +15,15 @@
 #include "sourceMonitor.hpp"
 #include "SysInfo.h"
 
+typedef struct {
+    std::string city;
+    std::string temperature;
+    std::string humidity;
+    std::string info;
+    std::string date;
+    std::string highAndlow;
+}WhetherInfo;
+
 class ePaparDisplay
 {
 public:
@@ -32,10 +41,14 @@ public:
 
     void init();
     void end();
+
+    void getWhetherInfo();
 private:
     UBYTE *BlackImage;
     static SysInfo &sysInfo;
     int current;
+
+    WhetherInfo m_whetherInfo;
 public:
     void setCurrent(int current);
 

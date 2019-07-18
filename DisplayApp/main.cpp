@@ -47,7 +47,7 @@ int main() {
         else if(digitalRead(KEY2) == 0){
             printf("KEY2 PRESS\n");
             while(digitalRead(KEY2) == 0){
-
+                app->getWhetherInfo();
                 delay(100);
                 timeout = 0;
             }

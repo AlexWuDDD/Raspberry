@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/tmp/tmp.dWNnAVq7yL/SysInfo.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/SysInfo.cpp.o"
   "/tmp/tmp.dWNnAVq7yL/SysInfoLinux.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o"
   "/tmp/tmp.dWNnAVq7yL/app.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/app.cpp.o"
+  "/tmp/tmp.dWNnAVq7yL/libcurl/libcurl.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o"
   "/tmp/tmp.dWNnAVq7yL/main.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/main.cpp.o"
   "/tmp/tmp.dWNnAVq7yL/test.cpp" "/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles/DisplayApp.dir/test.cpp.o"
   )

@@ -528,6 +528,33 @@ ePaper/EPD_2in7.c.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/ePaper/EPD_2in7.c.s
 .PHONY : ePaper/EPD_2in7.c.s
 
+libcurl/libcurl.o: libcurl/libcurl.cpp.o
+
+.PHONY : libcurl/libcurl.o
+
+# target to build an object file
+libcurl/libcurl.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o
+.PHONY : libcurl/libcurl.cpp.o
+
+libcurl/libcurl.i: libcurl/libcurl.cpp.i
+
+.PHONY : libcurl/libcurl.i
+
+# target to preprocess a source file
+libcurl/libcurl.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.i
+.PHONY : libcurl/libcurl.cpp.i
+
+libcurl/libcurl.s: libcurl/libcurl.cpp.s
+
+.PHONY : libcurl/libcurl.s
+
+# target to generate assembly for a file
+libcurl/libcurl.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.s
+.PHONY : libcurl/libcurl.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -636,6 +663,9 @@ help:
 	@echo "... ePaper/EPD_2in7.o"
 	@echo "... ePaper/EPD_2in7.i"
 	@echo "... ePaper/EPD_2in7.s"
+	@echo "... libcurl/libcurl.o"
+	@echo "... libcurl/libcurl.i"
+	@echo "... libcurl/libcurl.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

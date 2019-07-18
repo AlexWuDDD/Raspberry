@@ -12,6 +12,12 @@
 #include <sys/ioctl.h>
 #include "Debug.h"
 #include "SysInfoLinux.h"
+#include "libcurl/libcurl.h"
+#include "rapidjson/document.h"
+#include "rapidjson/stringbuffer.h"
+
+
+
 
 SysInfo &ePaparDisplay::sysInfo = SysInfoLinux::instance();
 
@@ -182,5 +188,56 @@ int ePaparDisplay::getCurrent() const {
 
 void ePaparDisplay::setCurrent(int current) {
     ePaparDisplay::current = current;
+}
+
+void ePaparDisplay::getWhetherInfo() {
+    std::string key = "7dec5f6344097139a28740b630476910";
+    std::string url = "http://apis.juhe.cn/simpleWeather/query";
+    std::string realURL = url + "?city=%e4%b8%8a%e6%b5%b7" + "&key=" + key;
+    Debug("Target: %s\n", realURL.c_str());
+
+    std::string weatherInfo;
+    HttpGet(realURL.c_str(), weatherInfo);
+
+    rapidjson::Document doc;
+
+    if(!doc.Parse(weatherInfo.data()).HasParseError()){
+        if(doc.HasMember("result")){
+            rapidjson::Value &result = doc["result"];
+            m_whetherInfo.city = result["city"].GetString();
+
+            rapidjson::Value &realtime = result["realtime"];
+            m_whetherInfo.temperature = realtime["temperature"].GetString();
+            m_whetherInfo.humidity = realtime["humidity"].GetString();
+            m_whetherInfo.info = realtime["info"].GetString();
+
+            rapidjson::Value &future = result["future"];
+            m_whetherInfo.date = future[0]["date"].GetString();
+            m_whetherInfo.highAndlow = future[0]["temperature"].GetString();
+        }
+    }
+    else{
+        Debug("analysis weather info error\n");
+    }
+
+    init();
+    printf("SelectImage:BlackImage\r\n");
+    Paint_SelectImage(BlackImage);
+    Paint_Clear(WHITE);
+
+    Paint_DrawString_EN(10, 0, "City: Shanghai", &Font12, WHITE, BLACK);
+    Paint_DrawString_EN(10, 20, ("temperature: "+ m_whetherInfo.temperature).c_str(), &Font12, WHITE, BLACK);
+    Paint_DrawString_EN(10, 40, ("humidity: " + m_whetherInfo.humidity).c_str(), &Font12, WHITE, BLACK);
+    Paint_DrawString_EN(10, 60, ("info: " + m_whetherInfo.info).c_str(), &Font12, WHITE, BLACK);
+    Paint_DrawString_EN(10, 90, ("date: " + m_whetherInfo.date).c_str(), &Font12, WHITE, BLACK);
+    Paint_DrawString_EN(10, 110, ("H&L: " + m_whetherInfo.highAndlow).c_str(), &Font12, WHITE, BLACK);
+
+    printf("EPD_Display\r\n");
+    EPD_2IN7_Display(BlackImage);
+    DEV_Delay_ms(2000);
+    end();
+    current = 2;
+
+    return;
 }
 

@@ -69,8 +69,26 @@ CMakeFiles/DisplayApp.dir/app.cpp.o
  /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
  /tmp/tmp.dWNnAVq7yL/app.cpp
  /tmp/tmp.dWNnAVq7yL/app.h
+ /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h
  /tmp/tmp.dWNnAVq7yL/test.h
+ /usr/local/include/curl/curl.h
+ /usr/local/include/curl/curlver.h
+ /usr/local/include/curl/easy.h
+ /usr/local/include/curl/multi.h
+ /usr/local/include/curl/system.h
+ /usr/local/include/curl/typecheck-gcc.h
+ /usr/local/include/curl/urlapi.h
  /usr/local/include/wiringPi.h
+CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o
+ /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.cpp
+ /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h
+ /usr/local/include/curl/curl.h
+ /usr/local/include/curl/curlver.h
+ /usr/local/include/curl/easy.h
+ /usr/local/include/curl/multi.h
+ /usr/local/include/curl/system.h
+ /usr/local/include/curl/typecheck-gcc.h
+ /usr/local/include/curl/urlapi.h
 CMakeFiles/DisplayApp.dir/main.cpp.o
  .././Config/DEV_Config.h
  .././Config/Debug.h
