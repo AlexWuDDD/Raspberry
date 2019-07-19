@@ -43,6 +43,7 @@ public:
     void end();
 
     void getWhetherInfo();
+    std::string CalculateWeekDay(std::string date);
 private:
     UBYTE *BlackImage;
     static SysInfo &sysInfo;
