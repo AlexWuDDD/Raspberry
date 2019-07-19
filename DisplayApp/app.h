@@ -6,7 +6,7 @@
 #define DISPLAYAPP_APP_H
 
 #include <GUI/GUI_Paint.h>
-#include "test.h"
+#include "testCAP.h"
 #include <stdlib.h>
 #include <GUI/GUI_BMPfile.h>
 #include "wiringPi.h"
@@ -44,6 +44,8 @@ public:
 
     void getWhetherInfo();
     std::string CalculateWeekDay(std::string date);
+
+    void getFaceRecognition();
 private:
     UBYTE *BlackImage;
     static SysInfo &sysInfo;

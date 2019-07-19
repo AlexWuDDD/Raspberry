@@ -23,7 +23,7 @@ link_directories(${LINK_DIR})
 add_definitions(-DUSE_WIRINGPI_LIB -DDEBUG)
 
 add_executable(DisplayApp main.cpp
-        test.cpp test.h
+        test.cpp testCAP.h
         Config/DEV_Config.c Config/DEV_Config.h Config/Debug.h
         ePaper/EPD_2in7.c ePaper/EPD_2in7.h
         GUI/GUI_BMPfile.c GUI/GUI_BMPfile.h
@@ -31,5 +31,16 @@ add_executable(DisplayApp main.cpp
         Fonts/font8.c Fonts/font12.c Fonts/font12CN.c Fonts/font16.c Fonts/font20.c Fonts/font24.c Fonts/font24CN.c
         Fonts/fonts.h HW.hpp
         app.h app.cpp SysInfo.cpp SysInfo.h SysInfoLinux.cpp SysInfoLinux.h HW.cpp
-        libcurl/libcurl.h libcurl/libcurl.cpp)
-target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread curl)
+        libcurl/libcurl.h libcurl/libcurl.cpp
+        camera/camera.cpp camera/camera.h)
+
+#add_executable(faceRecognition faceRecognition/face.cpp faceRecognition/face.h)
+#add_executable(audioTest audio/Source.cpp
+#        audio/RtAudioMicrophoneWrapper.cpp audio/RtAudioMicrophoneWrapper.h
+#        audio/RtAudioSpeakerWrapper.cpp audio/RtAudioSpeakerWrapper.h)
+
+#add_executable(capTEST camera/camera.cpp camera/camera.h)
+
+target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread curl raspicam)
+#target_link_libraries(audioTest rtaudio)
+#target_link_libraries(capTEST raspicam)

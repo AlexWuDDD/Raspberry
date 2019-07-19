@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.dWNnAVq7yL/camera/camera.cpp
+camera.h
+/tmp/tmp.dWNnAVq7yL/camera/camera.h
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/tmp/tmp.dWNnAVq7yL/camera/camera.h
+ctime
+-
+fstream
+-
+iostream
+-
+raspicam/raspicam.h
+-
+
+/usr/local/include/raspicam/raspicam.h
+cstdio
+-
+string
+-
+raspicamtypes.h
+/usr/local/include/raspicam/raspicamtypes.h
+
+/usr/local/include/raspicam/raspicamtypes.h
+

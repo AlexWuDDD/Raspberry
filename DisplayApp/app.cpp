@@ -17,6 +17,8 @@
 #include "rapidjson/stringbuffer.h"
 #include <map>
 #include <regex>
+#include "camera/camera.h"
+
 std::map<std::string, std::string> WHEATHER =
         {
             {"小雨","XYU.BMP"},
@@ -302,4 +304,22 @@ std::string ePaparDisplay::CalculateWeekDay(std::string date)
         case 6: return "SUN"; break;
         default: return "ERR";
     }
+}
+
+void ePaparDisplay::getFaceRecognition()
+{
+    init();
+    printf("SelectImage:BlackImage\r\n");
+    Paint_SelectImage(BlackImage);
+    Paint_Clear(WHITE);
+
+    Paint_DrawString_EN(10, 80, "Will take a photo, SMILE !!! ", &Font24, WHITE, BLACK);
+
+    printf("EPD_Display\r\n");
+    EPD_2IN7_Display(BlackImage);
+    DEV_Delay_ms(2000);
+    end();
+
+    capture("JerryHandsome");
+    current = 3;
 }

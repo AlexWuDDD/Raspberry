@@ -501,6 +501,33 @@ app.cpp.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/app.cpp.s
 .PHONY : app.cpp.s
 
+camera/camera.o: camera/camera.cpp.o
+
+.PHONY : camera/camera.o
+
+# target to build an object file
+camera/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/camera/camera.cpp.o
+.PHONY : camera/camera.cpp.o
+
+camera/camera.i: camera/camera.cpp.i
+
+.PHONY : camera/camera.i
+
+# target to preprocess a source file
+camera/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/camera/camera.cpp.i
+.PHONY : camera/camera.cpp.i
+
+camera/camera.s: camera/camera.cpp.s
+
+.PHONY : camera/camera.s
+
+# target to generate assembly for a file
+camera/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/camera/camera.cpp.s
+.PHONY : camera/camera.cpp.s
+
 ePaper/EPD_2in7.o: ePaper/EPD_2in7.c.o
 
 .PHONY : ePaper/EPD_2in7.o
@@ -660,6 +687,9 @@ help:
 	@echo "... app.o"
 	@echo "... app.i"
 	@echo "... app.s"
+	@echo "... camera/camera.o"
+	@echo "... camera/camera.i"
+	@echo "... camera/camera.s"
 	@echo "... ePaper/EPD_2in7.o"
 	@echo "... ePaper/EPD_2in7.i"
 	@echo "... ePaper/EPD_2in7.s"

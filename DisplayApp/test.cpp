@@ -3,7 +3,7 @@
 //
 
 #include <GUI/GUI_Paint.h>
-#include "test.h"
+#include "testCAP.h"
 #include <stdlib.h>
 #include <GUI/GUI_BMPfile.h>
 #include "wiringPi.h"

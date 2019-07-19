@@ -69,8 +69,9 @@ CMakeFiles/DisplayApp.dir/app.cpp.o
  /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
  /tmp/tmp.dWNnAVq7yL/app.cpp
  /tmp/tmp.dWNnAVq7yL/app.h
+ /tmp/tmp.dWNnAVq7yL/camera/camera.h
  /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h
- /tmp/tmp.dWNnAVq7yL/test.h
+ /tmp/tmp.dWNnAVq7yL/testCAP.h
  /usr/local/include/curl/curl.h
  /usr/local/include/curl/curlver.h
  /usr/local/include/curl/easy.h
@@ -99,7 +100,14 @@ CMakeFiles/DisplayApp.dir/app.cpp.o
  /usr/local/include/rapidjson/reader.h
  /usr/local/include/rapidjson/stream.h
  /usr/local/include/rapidjson/stringbuffer.h
+ /usr/local/include/raspicam/raspicam.h
+ /usr/local/include/raspicam/raspicamtypes.h
  /usr/local/include/wiringPi.h
+CMakeFiles/DisplayApp.dir/camera/camera.cpp.o
+ /tmp/tmp.dWNnAVq7yL/camera/camera.cpp
+ /tmp/tmp.dWNnAVq7yL/camera/camera.h
+ /usr/local/include/raspicam/raspicam.h
+ /usr/local/include/raspicam/raspicamtypes.h
 CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o
  /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.cpp
  /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h
@@ -122,7 +130,7 @@ CMakeFiles/DisplayApp.dir/main.cpp.o
  /tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
  /tmp/tmp.dWNnAVq7yL/app.h
  /tmp/tmp.dWNnAVq7yL/main.cpp
- /tmp/tmp.dWNnAVq7yL/test.h
+ /tmp/tmp.dWNnAVq7yL/testCAP.h
  /usr/local/include/wiringPi.h
 CMakeFiles/DisplayApp.dir/test.cpp.o
  .././Config/DEV_Config.h
@@ -132,5 +140,5 @@ CMakeFiles/DisplayApp.dir/test.cpp.o
  .././ePaper/EPD_2in7.h
  /tmp/tmp.dWNnAVq7yL/HW.hpp
  /tmp/tmp.dWNnAVq7yL/test.cpp
- /tmp/tmp.dWNnAVq7yL/test.h
+ /tmp/tmp.dWNnAVq7yL/testCAP.h
  /usr/local/include/wiringPi.h

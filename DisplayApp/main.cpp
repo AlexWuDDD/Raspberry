@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <csignal>
 #include "DEV_Config.h"
-#include "test.h"
+#include "testCAP.h"
 #include "app.h"
 #include "SysInfoLinux.h"
 #include <memory>
@@ -56,6 +56,7 @@ int main() {
         else if(digitalRead(KEY3) == 0){
             printf("KEY3 PRESS\n");
             while(digitalRead(KEY3) == 0){
+                app->getFaceRecognition();
                 delay(100);
                 timeout = 0;
             }

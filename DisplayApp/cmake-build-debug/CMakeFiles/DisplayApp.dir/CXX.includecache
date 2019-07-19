@@ -79,12 +79,18 @@ rapidjson/document.h
 /tmp/tmp.dWNnAVq7yL/rapidjson/document.h
 rapidjson/stringbuffer.h
 /tmp/tmp.dWNnAVq7yL/rapidjson/stringbuffer.h
+map
+-
+regex
+-
+camera/camera.h
+/tmp/tmp.dWNnAVq7yL/camera/camera.h
 
 /tmp/tmp.dWNnAVq7yL/app.h
 GUI/GUI_Paint.h
 -
-test.h
-/tmp/tmp.dWNnAVq7yL/test.h
+testCAP.h
+/tmp/tmp.dWNnAVq7yL/testCAP.h
 stdlib.h
 -
 GUI/GUI_BMPfile.h
@@ -100,6 +106,26 @@ sourceMonitor.hpp
 SysInfo.h
 /tmp/tmp.dWNnAVq7yL/SysInfo.h
 
+/tmp/tmp.dWNnAVq7yL/camera/camera.cpp
+camera.h
+/tmp/tmp.dWNnAVq7yL/camera/camera.h
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/tmp/tmp.dWNnAVq7yL/camera/camera.h
+ctime
+-
+fstream
+-
+iostream
+-
+raspicam/raspicam.h
+-
+
 /tmp/tmp.dWNnAVq7yL/libcurl/libcurl.h
 iostream
 -
@@ -108,7 +134,27 @@ string
 curl/curl.h
 /tmp/tmp.dWNnAVq7yL/libcurl/curl/curl.h
 
-/tmp/tmp.dWNnAVq7yL/test.h
+/tmp/tmp.dWNnAVq7yL/main.cpp
+iostream
+-
+stdlib.h
+-
+csignal
+-
+DEV_Config.h
+/tmp/tmp.dWNnAVq7yL/DEV_Config.h
+testCAP.h
+/tmp/tmp.dWNnAVq7yL/testCAP.h
+app.h
+/tmp/tmp.dWNnAVq7yL/app.h
+SysInfoLinux.h
+/tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
+memory
+-
+Debug.h
+/tmp/tmp.dWNnAVq7yL/Debug.h
+
+/tmp/tmp.dWNnAVq7yL/testCAP.h
 EPD_2in7.h
 /tmp/tmp.dWNnAVq7yL/EPD_2in7.h
 
@@ -363,6 +409,16 @@ utility
 -
 internal/stack.h
 /usr/local/include/rapidjson/internal/stack.h
+
+/usr/local/include/raspicam/raspicam.h
+cstdio
+-
+string
+-
+raspicamtypes.h
+/usr/local/include/raspicam/raspicamtypes.h
+
+/usr/local/include/raspicam/raspicamtypes.h
 
 /usr/local/include/wiringPi.h
 

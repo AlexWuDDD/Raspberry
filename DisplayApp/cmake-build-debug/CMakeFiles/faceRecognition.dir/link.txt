@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/faceRecognition.dir/faceRecognition/face.cpp.o  -o faceRecognition  -L/usr/local/lib 

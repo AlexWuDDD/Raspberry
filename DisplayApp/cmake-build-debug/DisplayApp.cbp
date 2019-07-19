@@ -167,6 +167,12 @@
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/app.h">
 			<Option target="DisplayApp"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/camera/camera.cpp">
+			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/camera/camera.h">
+			<Option target="DisplayApp"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/ePaper/EPD_2in7.c">
 			<Option target="DisplayApp"/>
 		</Unit>
@@ -185,7 +191,7 @@
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/test.cpp">
 			<Option target="DisplayApp"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dWNnAVq7yL/test.h">
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/testCAP.h">
 			<Option target="DisplayApp"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/CMakeLists.txt">

@@ -68,8 +68,9 @@ CMakeFiles/DisplayApp.dir/app.cpp.o: ../SysInfo.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: ../SysInfoLinux.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: ../app.cpp
 CMakeFiles/DisplayApp.dir/app.cpp.o: ../app.h
+CMakeFiles/DisplayApp.dir/app.cpp.o: ../camera/camera.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: ../libcurl/libcurl.h
-CMakeFiles/DisplayApp.dir/app.cpp.o: ../test.h
+CMakeFiles/DisplayApp.dir/app.cpp.o: ../testCAP.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/curl/curl.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/curl/curlver.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/curl/easy.h
@@ -98,7 +99,14 @@ CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/rapidjson/rapidjson.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/rapidjson/reader.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/rapidjson/stream.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/rapidjson/stringbuffer.h
+CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/raspicam/raspicam.h
+CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/raspicam/raspicamtypes.h
 CMakeFiles/DisplayApp.dir/app.cpp.o: /usr/local/include/wiringPi.h
+
+CMakeFiles/DisplayApp.dir/camera/camera.cpp.o: ../camera/camera.cpp
+CMakeFiles/DisplayApp.dir/camera/camera.cpp.o: ../camera/camera.h
+CMakeFiles/DisplayApp.dir/camera/camera.cpp.o: /usr/local/include/raspicam/raspicam.h
+CMakeFiles/DisplayApp.dir/camera/camera.cpp.o: /usr/local/include/raspicam/raspicamtypes.h
 
 CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o: ../libcurl/libcurl.cpp
 CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o: ../libcurl/libcurl.h
@@ -121,7 +129,7 @@ CMakeFiles/DisplayApp.dir/main.cpp.o: ../SysInfo.h
 CMakeFiles/DisplayApp.dir/main.cpp.o: ../SysInfoLinux.h
 CMakeFiles/DisplayApp.dir/main.cpp.o: ../app.h
 CMakeFiles/DisplayApp.dir/main.cpp.o: ../main.cpp
-CMakeFiles/DisplayApp.dir/main.cpp.o: ../test.h
+CMakeFiles/DisplayApp.dir/main.cpp.o: ../testCAP.h
 CMakeFiles/DisplayApp.dir/main.cpp.o: /usr/local/include/wiringPi.h
 
 CMakeFiles/DisplayApp.dir/test.cpp.o: .././Config/DEV_Config.h
@@ -131,6 +139,6 @@ CMakeFiles/DisplayApp.dir/test.cpp.o: .././GUI/GUI_Paint.h
 CMakeFiles/DisplayApp.dir/test.cpp.o: .././ePaper/EPD_2in7.h
 CMakeFiles/DisplayApp.dir/test.cpp.o: ../HW.hpp
 CMakeFiles/DisplayApp.dir/test.cpp.o: ../test.cpp
-CMakeFiles/DisplayApp.dir/test.cpp.o: ../test.h
+CMakeFiles/DisplayApp.dir/test.cpp.o: ../testCAP.h
 CMakeFiles/DisplayApp.dir/test.cpp.o: /usr/local/include/wiringPi.h
 

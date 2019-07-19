@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DisplayApp.dir/SysInfoLinux.cpp.o"
   "CMakeFiles/DisplayApp.dir/HW.cpp.o"
   "CMakeFiles/DisplayApp.dir/libcurl/libcurl.cpp.o"
+  "CMakeFiles/DisplayApp.dir/camera/camera.cpp.o"
   "DisplayApp.pdb"
   "DisplayApp"
 )
