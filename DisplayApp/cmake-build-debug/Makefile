@@ -123,6 +123,19 @@ DisplayApp/fast:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/build
 .PHONY : DisplayApp/fast
 
+#=============================================================================
+# Target rules for targets named audioTest
+
+# Build rule for target.
+audioTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audioTest
+.PHONY : audioTest
+
+# fast build rule for target.
+audioTest/fast:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/build
+.PHONY : audioTest/fast
+
 Config/DEV_Config.o: Config/DEV_Config.c.o
 
 .PHONY : Config/DEV_Config.o
@@ -501,6 +514,87 @@ app.cpp.s:
 	$(MAKE) -f CMakeFiles/DisplayApp.dir/build.make CMakeFiles/DisplayApp.dir/app.cpp.s
 .PHONY : app.cpp.s
 
+audio/RtAudioMicrophoneWrapper.o: audio/RtAudioMicrophoneWrapper.cpp.o
+
+.PHONY : audio/RtAudioMicrophoneWrapper.o
+
+# target to build an object file
+audio/RtAudioMicrophoneWrapper.cpp.o:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioMicrophoneWrapper.cpp.o
+.PHONY : audio/RtAudioMicrophoneWrapper.cpp.o
+
+audio/RtAudioMicrophoneWrapper.i: audio/RtAudioMicrophoneWrapper.cpp.i
+
+.PHONY : audio/RtAudioMicrophoneWrapper.i
+
+# target to preprocess a source file
+audio/RtAudioMicrophoneWrapper.cpp.i:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioMicrophoneWrapper.cpp.i
+.PHONY : audio/RtAudioMicrophoneWrapper.cpp.i
+
+audio/RtAudioMicrophoneWrapper.s: audio/RtAudioMicrophoneWrapper.cpp.s
+
+.PHONY : audio/RtAudioMicrophoneWrapper.s
+
+# target to generate assembly for a file
+audio/RtAudioMicrophoneWrapper.cpp.s:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioMicrophoneWrapper.cpp.s
+.PHONY : audio/RtAudioMicrophoneWrapper.cpp.s
+
+audio/RtAudioSpeakerWrapper.o: audio/RtAudioSpeakerWrapper.cpp.o
+
+.PHONY : audio/RtAudioSpeakerWrapper.o
+
+# target to build an object file
+audio/RtAudioSpeakerWrapper.cpp.o:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioSpeakerWrapper.cpp.o
+.PHONY : audio/RtAudioSpeakerWrapper.cpp.o
+
+audio/RtAudioSpeakerWrapper.i: audio/RtAudioSpeakerWrapper.cpp.i
+
+.PHONY : audio/RtAudioSpeakerWrapper.i
+
+# target to preprocess a source file
+audio/RtAudioSpeakerWrapper.cpp.i:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioSpeakerWrapper.cpp.i
+.PHONY : audio/RtAudioSpeakerWrapper.cpp.i
+
+audio/RtAudioSpeakerWrapper.s: audio/RtAudioSpeakerWrapper.cpp.s
+
+.PHONY : audio/RtAudioSpeakerWrapper.s
+
+# target to generate assembly for a file
+audio/RtAudioSpeakerWrapper.cpp.s:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/RtAudioSpeakerWrapper.cpp.s
+.PHONY : audio/RtAudioSpeakerWrapper.cpp.s
+
+audio/Source.o: audio/Source.cpp.o
+
+.PHONY : audio/Source.o
+
+# target to build an object file
+audio/Source.cpp.o:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/Source.cpp.o
+.PHONY : audio/Source.cpp.o
+
+audio/Source.i: audio/Source.cpp.i
+
+.PHONY : audio/Source.i
+
+# target to preprocess a source file
+audio/Source.cpp.i:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/Source.cpp.i
+.PHONY : audio/Source.cpp.i
+
+audio/Source.s: audio/Source.cpp.s
+
+.PHONY : audio/Source.s
+
+# target to generate assembly for a file
+audio/Source.cpp.s:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/audio/Source.cpp.s
+.PHONY : audio/Source.cpp.s
+
 camera/camera.o: camera/camera.cpp.o
 
 .PHONY : camera/camera.o
@@ -643,8 +737,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... DisplayApp"
 	@echo "... edit_cache"
+	@echo "... DisplayApp"
+	@echo "... audioTest"
 	@echo "... Config/DEV_Config.o"
 	@echo "... Config/DEV_Config.i"
 	@echo "... Config/DEV_Config.s"
@@ -687,6 +782,15 @@ help:
 	@echo "... app.o"
 	@echo "... app.i"
 	@echo "... app.s"
+	@echo "... audio/RtAudioMicrophoneWrapper.o"
+	@echo "... audio/RtAudioMicrophoneWrapper.i"
+	@echo "... audio/RtAudioMicrophoneWrapper.s"
+	@echo "... audio/RtAudioSpeakerWrapper.o"
+	@echo "... audio/RtAudioSpeakerWrapper.i"
+	@echo "... audio/RtAudioSpeakerWrapper.s"
+	@echo "... audio/Source.o"
+	@echo "... audio/Source.i"
+	@echo "... audio/Source.s"
 	@echo "... camera/camera.o"
 	@echo "... camera/camera.i"
 	@echo "... camera/camera.s"

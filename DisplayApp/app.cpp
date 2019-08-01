@@ -313,7 +313,7 @@ void ePaparDisplay::getFaceRecognition()
     Paint_SelectImage(BlackImage);
     Paint_Clear(WHITE);
 
-    Paint_DrawString_EN(10, 80, "Will take a photo, SMILE !!! ", &Font24, WHITE, BLACK);
+    Paint_DrawString_EN(10, 80, "Give me a smile !!! ", &Font24, WHITE, BLACK);
 
     printf("EPD_Display\r\n");
     EPD_2IN7_Display(BlackImage);
@@ -321,5 +321,16 @@ void ePaparDisplay::getFaceRecognition()
     end();
 
     capture("JerryHandsome");
+
+    Paint_SelectImage(BlackImage);
+    Paint_Clear(WHITE);
+
+    Paint_DrawString_EN(10, 80, "Ok !!! ", &Font24, WHITE, BLACK);
+
+    printf("EPD_Display\r\n");
+    EPD_2IN7_Display(BlackImage);
+    DEV_Delay_ms(2000);
+    end();
+
     current = 3;
 }

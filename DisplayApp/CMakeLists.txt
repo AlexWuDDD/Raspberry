@@ -35,12 +35,12 @@ add_executable(DisplayApp main.cpp
         camera/camera.cpp camera/camera.h)
 
 #add_executable(faceRecognition faceRecognition/face.cpp faceRecognition/face.h)
-#add_executable(audioTest audio/Source.cpp
-#        audio/RtAudioMicrophoneWrapper.cpp audio/RtAudioMicrophoneWrapper.h
-#        audio/RtAudioSpeakerWrapper.cpp audio/RtAudioSpeakerWrapper.h)
+add_executable(audioTest audio/Source.cpp
+        audio/RtAudioMicrophoneWrapper.cpp audio/RtAudioMicrophoneWrapper.h
+        audio/RtAudioSpeakerWrapper.cpp audio/RtAudioSpeakerWrapper.h)
 
 #add_executable(capTEST camera/camera.cpp camera/camera.h)
 
 target_link_libraries(DisplayApp bcm2835 wiringPi SrcMntr pthread curl raspicam)
-#target_link_libraries(audioTest rtaudio)
+target_link_libraries(audioTest rtaudio)
 #target_link_libraries(capTEST raspicam)

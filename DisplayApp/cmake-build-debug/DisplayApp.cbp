@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="DisplayApp">
 				<Option output="/tmp/tmp.dWNnAVq7yL/cmake-build-debug/DisplayApp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
@@ -87,11 +97,61 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="audioTest">
+				<Option output="/tmp/tmp.dWNnAVq7yL/cmake-build-debug/audioTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./ePaper"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Fonts"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./GUI"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 audioTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audioTest/fast">
+				<Option output="/tmp/tmp.dWNnAVq7yL/cmake-build-debug/audioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.dWNnAVq7yL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_WIRINGPI_LIB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/."/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Config"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./ePaper"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./Fonts"/>
+					<Add directory="/tmp/tmp.dWNnAVq7yL/./GUI"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 audioTest/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.dWNnAVq7yL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -166,6 +226,24 @@
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/app.h">
 			<Option target="DisplayApp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/RtAudioMicrophoneWrapper.cpp">
+			<Option target="audioTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/RtAudioMicrophoneWrapper.h">
+			<Option target="audioTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/RtAudioSpeakerWrapper.cpp">
+			<Option target="audioTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/RtAudioSpeakerWrapper.h">
+			<Option target="audioTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/Source.cpp">
+			<Option target="audioTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dWNnAVq7yL/audio/Source.h">
+			<Option target="audioTest"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dWNnAVq7yL/camera/camera.cpp">
 			<Option target="DisplayApp"/>

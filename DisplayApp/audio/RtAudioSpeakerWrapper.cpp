@@ -1,3 +1,4 @@
+#include <cstring>
 #include "RtAudioSpeakerWrapper.h"
 
 struct SpeakerCallbackData {

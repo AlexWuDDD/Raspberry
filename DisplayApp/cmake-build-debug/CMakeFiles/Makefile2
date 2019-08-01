@@ -102,6 +102,43 @@ clean: CMakeFiles/DisplayApp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/audioTest.dir
+
+# All Build rule for target.
+CMakeFiles/audioTest.dir/all:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/depend
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24 "Built target audioTest"
+.PHONY : CMakeFiles/audioTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/audioTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/audioTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/audioTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dWNnAVq7yL/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/audioTest.dir/rule
+
+# Convenience name for target.
+audioTest: CMakeFiles/audioTest.dir/rule
+
+.PHONY : audioTest
+
+# clean rule for target.
+CMakeFiles/audioTest.dir/clean:
+	$(MAKE) -f CMakeFiles/audioTest.dir/build.make CMakeFiles/audioTest.dir/clean
+.PHONY : CMakeFiles/audioTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/audioTest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

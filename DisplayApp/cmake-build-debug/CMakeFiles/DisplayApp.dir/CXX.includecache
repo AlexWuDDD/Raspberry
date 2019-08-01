@@ -106,16 +106,6 @@ sourceMonitor.hpp
 SysInfo.h
 /tmp/tmp.dWNnAVq7yL/SysInfo.h
 
-/tmp/tmp.dWNnAVq7yL/camera/camera.cpp
-camera.h
-/tmp/tmp.dWNnAVq7yL/camera/camera.h
-stdlib.h
--
-stdio.h
--
-unistd.h
--
-
 /tmp/tmp.dWNnAVq7yL/camera/camera.h
 ctime
 -
@@ -133,26 +123,6 @@ string
 -
 curl/curl.h
 /tmp/tmp.dWNnAVq7yL/libcurl/curl/curl.h
-
-/tmp/tmp.dWNnAVq7yL/main.cpp
-iostream
--
-stdlib.h
--
-csignal
--
-DEV_Config.h
-/tmp/tmp.dWNnAVq7yL/DEV_Config.h
-testCAP.h
-/tmp/tmp.dWNnAVq7yL/testCAP.h
-app.h
-/tmp/tmp.dWNnAVq7yL/app.h
-SysInfoLinux.h
-/tmp/tmp.dWNnAVq7yL/SysInfoLinux.h
-memory
--
-Debug.h
-/tmp/tmp.dWNnAVq7yL/Debug.h
 
 /tmp/tmp.dWNnAVq7yL/testCAP.h
 EPD_2in7.h
