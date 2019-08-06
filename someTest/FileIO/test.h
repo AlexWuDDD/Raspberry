@@ -8,9 +8,14 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <unistd.h>
 
 
 int testO_TRUNC();
+int testMode();
+int readAllBytes(int fd, char* buf, size_t len);
+int readNonBlocking(int fd, char* buf, size_t len);
+int writeAllBytes(int fd, char* buf, size_t len);
 
 
 

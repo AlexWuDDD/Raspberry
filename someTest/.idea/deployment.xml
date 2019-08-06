@@ -2,11 +2,24 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
+      <paths name="AlexOfficeRaspberry (7d250f28-18af-4dbb-af1e-805a5bd6c8e9)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.oDCJ7csMgP" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="Demo (274de966-2257-431d-82a0-a4ab6f18588e)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/tmp.oUz19JgzHi" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="Remote Host (758175b7-5aa9-4436-a534-605fe030e0a0)">
