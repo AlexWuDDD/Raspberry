@@ -16,6 +16,10 @@ int testMode();
 int readAllBytes(int fd, char* buf, size_t len);
 int readNonBlocking(int fd, char* buf, size_t len);
 int writeAllBytes(int fd, char* buf, size_t len);
+int testTruncate();
+int selectExample();
+int selectSleep(int sec, int usec);
+int pollExample();
 
 
 
