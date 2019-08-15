@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="someTest">
-				<Option output="/tmp/tmp.oDCJ7csMgP/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option output="/tmp/tmp.FrVZqkHuv3/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="someTest/fast">
-				<Option output="/tmp/tmp.oDCJ7csMgP/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option output="/tmp/tmp.FrVZqkHuv3/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +77,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileIOTest">
-				<Option output="/tmp/tmp.oDCJ7csMgP/cmake-build-debug/FileIOTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option output="/tmp/tmp.FrVZqkHuv3/cmake-build-debug/FileIOTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -100,15 +100,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileIOTest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileIOTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileIOTest/fast">
-				<Option output="/tmp/tmp.oDCJ7csMgP/cmake-build-debug/FileIOTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.oDCJ7csMgP/cmake-build-debug"/>
+				<Option output="/tmp/tmp.FrVZqkHuv3/cmake-build-debug/FileIOTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.FrVZqkHuv3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -123,23 +123,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileIOTest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.oDCJ7csMgP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileIOTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.FrVZqkHuv3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.oDCJ7csMgP/FileIO/test.cpp">
+		<Unit filename="/tmp/tmp.FrVZqkHuv3/FileIO/test.cpp">
 			<Option target="FileIOTest"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.oDCJ7csMgP/FileIO/test.h">
+		<Unit filename="/tmp/tmp.FrVZqkHuv3/FileIO/test.h">
 			<Option target="FileIOTest"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.oDCJ7csMgP/main.cpp">
+		<Unit filename="/tmp/tmp.FrVZqkHuv3/main.cpp">
 			<Option target="someTest"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.oDCJ7csMgP/CMakeLists.txt">
+		<Unit filename="/tmp/tmp.FrVZqkHuv3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

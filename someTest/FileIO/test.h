@@ -20,7 +20,18 @@ int testTruncate();
 int selectExample();
 int selectSleep(int sec, int usec);
 int pollExample();
-
+int testfdopen();
+int testungetc();
+int testfgets();
+int testfread();
+int testBufferedIO();
+int writevExample();
+int readvExample();
+int mappingExample(int argc, char*argv[]);
+int Print_inode_Number(int argc, char* argv[]);
+int logical_to_physical(int argc, char* argv[]);
+int atexitSample();
+int waitExample();
 
 
 #endif //SOMETEST_TEST_H
