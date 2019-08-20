@@ -33,5 +33,9 @@ int logical_to_physical(int argc, char* argv[]);
 int atexitSample();
 int waitExample();
 
+int cpuIsSet();
+int processBindCpu();
+int getProcessScheduler();
+
 
 #endif //SOMETEST_TEST_H

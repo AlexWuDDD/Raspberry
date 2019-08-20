@@ -2,23 +2,12 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="AlexOfficeRaspberry (8412ebd1-5c4f-4b22-88db-cdfbe12af0ea)">
+      <paths name="Alex (8412ebd1-5c4f-4b22-88db-cdfbe12af0ea)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.FrVZqkHuv3" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.t0bl1udGgi" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="Demo (274de966-2257-431d-82a0-a4ab6f18588e)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/tmp.oUz19JgzHi" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
           </excludedPaths>
         </serverdata>
