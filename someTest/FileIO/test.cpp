@@ -18,6 +18,9 @@
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sched.h>
+#include <sys/stat.h>
+#include <sys/sysmacros.h>
+
 
 int testO_TRUNC()
 {
@@ -663,8 +666,93 @@ int getProcessScheduler() {
     return 0;
 }
 
-int main(int argc, char*argv[])
-{
-    getProcessScheduler();
+int getFileSize(int argc, char*argv[]) {
+    struct stat sb;
+    int ret;
+    if(argc < 2){
+        fprintf(stderr, "usage: %s <file>\n", argv[0]);
+        return 1;
+    }
+
+    ret = stat(argv[1], &sb);
+    if(ret){
+        perror("stat");
+        return 1;
+    }
+
+    printf("%s is %ld bytes\n",
+            argv[1], sb.st_size);
+
     return 0;
 }
+
+int getFileType(int argc, char **argv) {
+    struct stat sb;
+    int ret;
+    if(argc < 2){
+        fprintf(stderr, "usage: %s <file>\n", argv[0]);
+        return 1;
+    }
+    ret = stat(argv[1], &sb);
+    if(ret){
+        perror("stat");
+        return 1;
+    }
+
+    printf("File type: ");
+    switch(sb.st_mode & S_IFMT){
+        case S_IFBLK:
+            printf("block device node\n");
+            break;
+        case S_IFCHR:
+            printf("character device node\n");
+            break;
+        case S_IFDIR:
+            printf("directory\n");
+            break;
+        case S_IFIFO:
+            printf("FIFO\n");
+            break;
+        case S_IFLNK:
+            printf("symbolic link\n");
+            break;
+        case S_IFREG:
+            printf("regular file\n");
+            break;
+        case S_IFSOCK:
+            printf("socket\n");
+            break;
+        default:
+            printf("unknown\n");
+            break;
+    }
+    return 0;
+}
+
+
+int is_on_physical_device (int fd) {
+    struct stat sb;
+    int ret;
+    ret = fstat (fd, &sb);
+    if (ret) {
+        perror ("fstat");
+        return -1;
+    }
+    return gnu_dev_major (sb.st_dev);
+}
+
+int main(int argc, char*argv[])
+{
+    //int fd = open("/home/pi/Alex/libevent-book-master/TOC.txt", O_RDONLY);
+    int fd = open("CMakeCache.txt", O_RDONLY);
+    if(fd == -1){
+        perror("fd");
+        return -1;
+    }
+    printf("ret : %d\n",is_on_physical_device(fd));
+
+    close(fd);
+    return 0;
+}
+
+

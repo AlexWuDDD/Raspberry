@@ -36,6 +36,9 @@ int waitExample();
 int cpuIsSet();
 int processBindCpu();
 int getProcessScheduler();
+int getFileSize(int argc, char* argv[]);
+int getFileType(int argc, char* argv[]);
+int is_on_physical_device (int fd);
 
 
 #endif //SOMETEST_TEST_H

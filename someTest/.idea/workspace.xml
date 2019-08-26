@@ -2,8 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="someTest" targetName="someTest" />
+      <config projectName="someTest" targetName="AsimplerRot13ServerWithLibevent" />
+      <config projectName="someTest" targetName="aLowLevelRot13ServerWithLibevent" />
+      <config projectName="someTest" targetName="ForkingROT13Server" />
+      <config projectName="someTest" targetName="AsimpleBlockingHttpClient" />
+      <config projectName="someTest" targetName="getSupportMethods" />
       <config projectName="someTest" targetName="FileIOTest" />
+      <config projectName="someTest" targetName="slectBaseRot13Server" />
+      <config projectName="someTest" targetName="someTest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,22 +20,22 @@
   <component name="ChangeListManager">
     <list default="true" id="1931b1f6-9765-485a-bfd3-8c03900047f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileIO/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO/test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileIO/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FileIOTest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/someTest.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/someTest" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/someTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/someTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/someTest.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -42,25 +48,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FileIO/test.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/test.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="641" selection-start-line="641" selection-end-line="663" selection-end-column="1" />
+            <state relative-caret-position="924">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <element signature="e#39#56#0" expanded="true" />
+                <element signature="e#89#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileIO/test.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FileIO/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="737" column="8" selection-start-line="732" selection-end-line="755" selection-end-column="1" />
               <folding>
-                <element signature="e#89#111#0" expanded="true" />
+                <element signature="e#39#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,19 +83,27 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/epoll/epollmain.cpp" />
         <option value="$PROJECT_DIR$/epoll/testEpoll.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FileIO/testfile1.txt" />
         <option value="$PROJECT_DIR$/FileIO/testfile.txt" />
         <option value="$PROJECT_DIR$/FileIO/pirate.txt" />
+        <option value="$PROJECT_DIR$/libevent/main.cpp" />
+        <option value="$PROJECT_DIR$/libevent/AsimpleBlockingHttpClient.cpp" />
+        <option value="$PROJECT_DIR$/libevent/ForkingROT13server.cpp" />
+        <option value="$PROJECT_DIR$/libevent/ForkingROT13Server.cpp" />
+        <option value="$PROJECT_DIR$/libevent/select_base_rot13_server.cpp" />
+        <option value="$PROJECT_DIR$/libevent/AlowlevelROT13ServerWithLIbevent.cpp" />
+        <option value="$PROJECT_DIR$/libevent/AsimplerROT13serverwithLibevent.cpp" />
+        <option value="$PROJECT_DIR$/libevent/eventBase/getSupportMethods.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FileIO/test.h" />
         <option value="$PROJECT_DIR$/FileIO/test.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2701" />
-    <option name="y" value="12" />
-    <option name="width" value="1006" />
+    <option name="x" value="2357" />
+    <option name="y" value="33" />
+    <option name="width" value="1288" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +130,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +157,37 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.FileIOTest">
+    <configuration name="AsimpleBlockingHttpClient" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="AsimpleBlockingHttpClient" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="AsimpleBlockingHttpClient">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsimplerRot13ServerWithLibevent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="AsimplerRot13ServerWithLibevent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="AsimplerRot13ServerWithLibevent">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileIOTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="FileIOTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="FileIOTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkingROT13Server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="ForkingROT13Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="ForkingROT13Server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aLowLevelRot13ServerWithLibevent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="aLowLevelRot13ServerWithLibevent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="aLowLevelRot13ServerWithLibevent">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getSupportMethods" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="getSupportMethods" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="getSupportMethods">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="slectBaseRot13Server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="someTest" TARGET_NAME="slectBaseRot13Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="someTest" RUN_TARGET_NAME="slectBaseRot13Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -154,7 +198,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AsimpleBlockingHttpClient" />
+      <item itemvalue="Application.AsimplerRot13ServerWithLibevent" />
       <item itemvalue="Application.FileIOTest" />
+      <item itemvalue="Application.ForkingROT13Server" />
+      <item itemvalue="Application.aLowLevelRot13ServerWithLibevent" />
+      <item itemvalue="Application.getSupportMethods" />
+      <item itemvalue="Application.slectBaseRot13Server" />
       <item itemvalue="Application.someTest" />
     </list>
   </component>
@@ -189,16 +239,23 @@
       <workItem from="1565912242806" duration="606000" />
       <workItem from="1566176275720" duration="51000" />
       <workItem from="1566281050922" duration="2930000" />
+      <workItem from="1566354206544" duration="13000" />
+      <workItem from="1566430649159" duration="710000" />
+      <workItem from="1566434821030" duration="15000" />
+      <workItem from="1566436842833" duration="297000" />
+      <workItem from="1566438114056" duration="9290000" />
+      <workItem from="1566776577448" duration="2886000" />
+      <workItem from="1566789980611" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40369000" />
+    <option name="totallyTimeSpent" value="53585000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2701" y="12" width="1006" height="1088" extended-state="0" />
+    <frame x="2357" y="33" width="1288" height="1088" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2293869" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19625407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,13 +265,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.32041883" />
+      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.30890054" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.32565445" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="CMake" order="13" weight="0.3261105" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.32460734" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/pirate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -288,10 +338,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/AsimpleBlockingHttpClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/ForkingROT13Server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="e#114#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/select_base_rot13_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="187" column="35" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="35" />
+          <folding>
+            <element signature="e#149#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/AlowlevelROT13ServerWithLIbevent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/AsimplerROT13serverwithLibevent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+          <folding>
+            <element signature="e#113#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libevent/eventBase/getSupportMethods.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/test.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="924">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#89#111#0" expanded="true" />
           </folding>
@@ -300,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="641" selection-start-line="641" selection-end-line="663" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="737" column="8" selection-start-line="732" selection-end-line="755" selection-end-column="1" />
           <folding>
             <element signature="e#39#56#0" expanded="true" />
           </folding>

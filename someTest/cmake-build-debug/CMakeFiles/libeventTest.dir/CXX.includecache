@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/libevent/AsimpleBlockingHttpClient.cpp
+netinet/in.h
+-
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+string.h
+-
+stdio.h
+-
+

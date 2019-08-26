@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /tmp/tmp.t0bl1udGgi/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named someTest
+# Target rules for targets named getSupportMethods
 
 # Build rule for target.
-someTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 someTest
-.PHONY : someTest
+getSupportMethods: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getSupportMethods
+.PHONY : getSupportMethods
 
 # fast build rule for target.
-someTest/fast:
-	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/build
-.PHONY : someTest/fast
+getSupportMethods/fast:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/build
+.PHONY : getSupportMethods/fast
 
 #=============================================================================
 # Target rules for targets named FileIOTest
@@ -135,6 +135,84 @@ FileIOTest: cmake_check_build_system
 FileIOTest/fast:
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/build
 .PHONY : FileIOTest/fast
+
+#=============================================================================
+# Target rules for targets named someTest
+
+# Build rule for target.
+someTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 someTest
+.PHONY : someTest
+
+# fast build rule for target.
+someTest/fast:
+	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/build
+.PHONY : someTest/fast
+
+#=============================================================================
+# Target rules for targets named AsimplerRot13ServerWithLibevent
+
+# Build rule for target.
+AsimplerRot13ServerWithLibevent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AsimplerRot13ServerWithLibevent
+.PHONY : AsimplerRot13ServerWithLibevent
+
+# fast build rule for target.
+AsimplerRot13ServerWithLibevent/fast:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build
+.PHONY : AsimplerRot13ServerWithLibevent/fast
+
+#=============================================================================
+# Target rules for targets named AsimpleBlockingHttpClient
+
+# Build rule for target.
+AsimpleBlockingHttpClient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AsimpleBlockingHttpClient
+.PHONY : AsimpleBlockingHttpClient
+
+# fast build rule for target.
+AsimpleBlockingHttpClient/fast:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/build
+.PHONY : AsimpleBlockingHttpClient/fast
+
+#=============================================================================
+# Target rules for targets named ForkingROT13Server
+
+# Build rule for target.
+ForkingROT13Server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ForkingROT13Server
+.PHONY : ForkingROT13Server
+
+# fast build rule for target.
+ForkingROT13Server/fast:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/build
+.PHONY : ForkingROT13Server/fast
+
+#=============================================================================
+# Target rules for targets named slectBaseRot13Server
+
+# Build rule for target.
+slectBaseRot13Server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 slectBaseRot13Server
+.PHONY : slectBaseRot13Server
+
+# fast build rule for target.
+slectBaseRot13Server/fast:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/build
+.PHONY : slectBaseRot13Server/fast
+
+#=============================================================================
+# Target rules for targets named aLowLevelRot13ServerWithLibevent
+
+# Build rule for target.
+aLowLevelRot13ServerWithLibevent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aLowLevelRot13ServerWithLibevent
+.PHONY : aLowLevelRot13ServerWithLibevent
+
+# fast build rule for target.
+aLowLevelRot13ServerWithLibevent/fast:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build
+.PHONY : aLowLevelRot13ServerWithLibevent/fast
 
 FileIO/test.o: FileIO/test.cpp.o
 
@@ -162,6 +240,168 @@ FileIO/test.s: FileIO/test.cpp.s
 FileIO/test.cpp.s:
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/FileIO/test.cpp.s
 .PHONY : FileIO/test.cpp.s
+
+libevent/AlowlevelROT13ServerWithLIbevent.o: libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
+
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.o
+
+# target to build an object file
+libevent/AlowlevelROT13ServerWithLIbevent.cpp.o:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
+
+libevent/AlowlevelROT13ServerWithLIbevent.i: libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
+
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.i
+
+# target to preprocess a source file
+libevent/AlowlevelROT13ServerWithLIbevent.cpp.i:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
+
+libevent/AlowlevelROT13ServerWithLIbevent.s: libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
+
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.s
+
+# target to generate assembly for a file
+libevent/AlowlevelROT13ServerWithLIbevent.cpp.s:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
+.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
+
+libevent/AsimpleBlockingHttpClient.o: libevent/AsimpleBlockingHttpClient.cpp.o
+
+.PHONY : libevent/AsimpleBlockingHttpClient.o
+
+# target to build an object file
+libevent/AsimpleBlockingHttpClient.cpp.o:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.o
+.PHONY : libevent/AsimpleBlockingHttpClient.cpp.o
+
+libevent/AsimpleBlockingHttpClient.i: libevent/AsimpleBlockingHttpClient.cpp.i
+
+.PHONY : libevent/AsimpleBlockingHttpClient.i
+
+# target to preprocess a source file
+libevent/AsimpleBlockingHttpClient.cpp.i:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.i
+.PHONY : libevent/AsimpleBlockingHttpClient.cpp.i
+
+libevent/AsimpleBlockingHttpClient.s: libevent/AsimpleBlockingHttpClient.cpp.s
+
+.PHONY : libevent/AsimpleBlockingHttpClient.s
+
+# target to generate assembly for a file
+libevent/AsimpleBlockingHttpClient.cpp.s:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.s
+.PHONY : libevent/AsimpleBlockingHttpClient.cpp.s
+
+libevent/AsimplerROT13serverwithLibevent.o: libevent/AsimplerROT13serverwithLibevent.cpp.o
+
+.PHONY : libevent/AsimplerROT13serverwithLibevent.o
+
+# target to build an object file
+libevent/AsimplerROT13serverwithLibevent.cpp.o:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.o
+.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.o
+
+libevent/AsimplerROT13serverwithLibevent.i: libevent/AsimplerROT13serverwithLibevent.cpp.i
+
+.PHONY : libevent/AsimplerROT13serverwithLibevent.i
+
+# target to preprocess a source file
+libevent/AsimplerROT13serverwithLibevent.cpp.i:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.i
+.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.i
+
+libevent/AsimplerROT13serverwithLibevent.s: libevent/AsimplerROT13serverwithLibevent.cpp.s
+
+.PHONY : libevent/AsimplerROT13serverwithLibevent.s
+
+# target to generate assembly for a file
+libevent/AsimplerROT13serverwithLibevent.cpp.s:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.s
+.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.s
+
+libevent/ForkingROT13Server.o: libevent/ForkingROT13Server.cpp.o
+
+.PHONY : libevent/ForkingROT13Server.o
+
+# target to build an object file
+libevent/ForkingROT13Server.cpp.o:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.o
+.PHONY : libevent/ForkingROT13Server.cpp.o
+
+libevent/ForkingROT13Server.i: libevent/ForkingROT13Server.cpp.i
+
+.PHONY : libevent/ForkingROT13Server.i
+
+# target to preprocess a source file
+libevent/ForkingROT13Server.cpp.i:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.i
+.PHONY : libevent/ForkingROT13Server.cpp.i
+
+libevent/ForkingROT13Server.s: libevent/ForkingROT13Server.cpp.s
+
+.PHONY : libevent/ForkingROT13Server.s
+
+# target to generate assembly for a file
+libevent/ForkingROT13Server.cpp.s:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.s
+.PHONY : libevent/ForkingROT13Server.cpp.s
+
+libevent/eventBase/getSupportMethods.o: libevent/eventBase/getSupportMethods.cpp.o
+
+.PHONY : libevent/eventBase/getSupportMethods.o
+
+# target to build an object file
+libevent/eventBase/getSupportMethods.cpp.o:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.o
+.PHONY : libevent/eventBase/getSupportMethods.cpp.o
+
+libevent/eventBase/getSupportMethods.i: libevent/eventBase/getSupportMethods.cpp.i
+
+.PHONY : libevent/eventBase/getSupportMethods.i
+
+# target to preprocess a source file
+libevent/eventBase/getSupportMethods.cpp.i:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.i
+.PHONY : libevent/eventBase/getSupportMethods.cpp.i
+
+libevent/eventBase/getSupportMethods.s: libevent/eventBase/getSupportMethods.cpp.s
+
+.PHONY : libevent/eventBase/getSupportMethods.s
+
+# target to generate assembly for a file
+libevent/eventBase/getSupportMethods.cpp.s:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.s
+.PHONY : libevent/eventBase/getSupportMethods.cpp.s
+
+libevent/select_base_rot13_server.o: libevent/select_base_rot13_server.cpp.o
+
+.PHONY : libevent/select_base_rot13_server.o
+
+# target to build an object file
+libevent/select_base_rot13_server.cpp.o:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.o
+.PHONY : libevent/select_base_rot13_server.cpp.o
+
+libevent/select_base_rot13_server.i: libevent/select_base_rot13_server.cpp.i
+
+.PHONY : libevent/select_base_rot13_server.i
+
+# target to preprocess a source file
+libevent/select_base_rot13_server.cpp.i:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.i
+.PHONY : libevent/select_base_rot13_server.cpp.i
+
+libevent/select_base_rot13_server.s: libevent/select_base_rot13_server.cpp.s
+
+.PHONY : libevent/select_base_rot13_server.s
+
+# target to generate assembly for a file
+libevent/select_base_rot13_server.cpp.s:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.s
+.PHONY : libevent/select_base_rot13_server.cpp.s
 
 main.o: main.cpp.o
 
@@ -196,13 +436,37 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... someTest"
+	@echo "... getSupportMethods"
 	@echo "... FileIOTest"
+	@echo "... someTest"
+	@echo "... AsimplerRot13ServerWithLibevent"
+	@echo "... AsimpleBlockingHttpClient"
+	@echo "... rebuild_cache"
+	@echo "... ForkingROT13Server"
+	@echo "... slectBaseRot13Server"
+	@echo "... aLowLevelRot13ServerWithLibevent"
 	@echo "... FileIO/test.o"
 	@echo "... FileIO/test.i"
 	@echo "... FileIO/test.s"
+	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.o"
+	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.i"
+	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.s"
+	@echo "... libevent/AsimpleBlockingHttpClient.o"
+	@echo "... libevent/AsimpleBlockingHttpClient.i"
+	@echo "... libevent/AsimpleBlockingHttpClient.s"
+	@echo "... libevent/AsimplerROT13serverwithLibevent.o"
+	@echo "... libevent/AsimplerROT13serverwithLibevent.i"
+	@echo "... libevent/AsimplerROT13serverwithLibevent.s"
+	@echo "... libevent/ForkingROT13Server.o"
+	@echo "... libevent/ForkingROT13Server.i"
+	@echo "... libevent/ForkingROT13Server.s"
+	@echo "... libevent/eventBase/getSupportMethods.o"
+	@echo "... libevent/eventBase/getSupportMethods.i"
+	@echo "... libevent/eventBase/getSupportMethods.s"
+	@echo "... libevent/select_base_rot13_server.o"
+	@echo "... libevent/select_base_rot13_server.i"
+	@echo "... libevent/select_base_rot13_server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

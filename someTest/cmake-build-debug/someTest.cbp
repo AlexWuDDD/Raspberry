@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="someTest">
-				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="getSupportMethods">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/getSupportMethods" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -54,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 getSupportMethods"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="someTest/fast">
-				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="getSupportMethods/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/getSupportMethods" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 getSupportMethods/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -129,12 +119,316 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="someTest">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="someTest/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/someTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 someTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsimplerRot13ServerWithLibevent">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/AsimplerRot13ServerWithLibevent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsimplerRot13ServerWithLibevent"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsimplerRot13ServerWithLibevent/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/AsimplerRot13ServerWithLibevent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsimplerRot13ServerWithLibevent/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsimpleBlockingHttpClient">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/AsimpleBlockingHttpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsimpleBlockingHttpClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsimpleBlockingHttpClient/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/AsimpleBlockingHttpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsimpleBlockingHttpClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ForkingROT13Server">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/ForkingROT13Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForkingROT13Server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ForkingROT13Server/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/ForkingROT13Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForkingROT13Server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slectBaseRot13Server">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/slectBaseRot13Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 slectBaseRot13Server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slectBaseRot13Server/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/slectBaseRot13Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 slectBaseRot13Server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aLowLevelRot13ServerWithLibevent">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/aLowLevelRot13ServerWithLibevent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 aLowLevelRot13ServerWithLibevent"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aLowLevelRot13ServerWithLibevent/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/aLowLevelRot13ServerWithLibevent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 aLowLevelRot13ServerWithLibevent/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/tmp/tmp.t0bl1udGgi/FileIO/test.cpp">
 			<Option target="FileIOTest"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.t0bl1udGgi/FileIO/test.h">
 			<Option target="FileIOTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/AlowlevelROT13ServerWithLIbevent.cpp">
+			<Option target="aLowLevelRot13ServerWithLibevent"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/AsimpleBlockingHttpClient.cpp">
+			<Option target="AsimpleBlockingHttpClient"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/AsimplerROT13serverwithLibevent.cpp">
+			<Option target="AsimplerRot13ServerWithLibevent"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/ForkingROT13Server.cpp">
+			<Option target="ForkingROT13Server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/eventBase/getSupportMethods.cpp">
+			<Option target="getSupportMethods"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/libevent/select_base_rot13_server.cpp">
+			<Option target="slectBaseRot13Server"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.t0bl1udGgi/main.cpp">
 			<Option target="someTest"/>

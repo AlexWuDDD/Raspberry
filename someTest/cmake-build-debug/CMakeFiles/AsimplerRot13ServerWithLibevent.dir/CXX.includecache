@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/libevent/AsimplerROT13serverwithLibevent.cpp
+netinet/in.h
+-
+sys/socket.h
+-
+fcntl.h
+-
+event2/event.h
+-
+event2/buffer.h
+-
+event2/bufferevent.h
+-
+assert.h
+-
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/libevent/select_base_rot13_server.cpp
+netinet/in.h
+-
+sys/socket.h
+-
+fcntl.h
+-
+sys/select.h
+-
+assert.h
+-
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+

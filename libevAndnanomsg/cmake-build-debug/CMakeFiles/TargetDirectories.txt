@@ -1,0 +1,3 @@
+/tmp/tmp.wHw86nweM1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.wHw86nweM1/cmake-build-debug/CMakeFiles/libevAndnanomsg.dir
+/tmp/tmp.wHw86nweM1/cmake-build-debug/CMakeFiles/edit_cache.dir

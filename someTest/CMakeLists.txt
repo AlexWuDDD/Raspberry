@@ -5,3 +5,14 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(someTest main.cpp)
 add_executable(FileIOTest FileIO/test.cpp FileIO/test.h)
+
+add_executable(AsimpleBlockingHttpClient libevent/AsimpleBlockingHttpClient.cpp)
+add_executable(ForkingROT13Server libevent/ForkingROT13Server.cpp)
+add_executable(slectBaseRot13Server libevent/select_base_rot13_server.cpp)
+add_executable(aLowLevelRot13ServerWithLibevent libevent/AlowlevelROT13ServerWithLIbevent.cpp)
+target_link_libraries(aLowLevelRot13ServerWithLibevent event_core event_extra)
+add_executable(AsimplerRot13ServerWithLibevent libevent/AsimplerROT13serverwithLibevent.cpp)
+target_link_libraries(AsimplerRot13ServerWithLibevent event_core event_extra)
+
+add_executable(getSupportMethods libevent/eventBase/getSupportMethods.cpp)
+target_link_libraries(getSupportMethods event)

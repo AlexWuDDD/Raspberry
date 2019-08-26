@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/libevent/ForkingROT13Server.cpp
+netinet/in.h
+-
+sys/socket.h
+-
+unistd.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+

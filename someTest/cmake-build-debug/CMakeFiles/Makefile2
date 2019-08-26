@@ -65,13 +65,87 @@ CMAKE_SOURCE_DIR = /tmp/tmp.t0bl1udGgi
 CMAKE_BINARY_DIR = /tmp/tmp.t0bl1udGgi/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/getSupportMethods.dir
+
+# All Build rule for target.
+CMakeFiles/getSupportMethods.dir/all:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/depend
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target getSupportMethods"
+.PHONY : CMakeFiles/getSupportMethods.dir/all
+
+# Include target in all.
+all: CMakeFiles/getSupportMethods.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/getSupportMethods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/getSupportMethods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/getSupportMethods.dir/rule
+
+# Convenience name for target.
+getSupportMethods: CMakeFiles/getSupportMethods.dir/rule
+
+.PHONY : getSupportMethods
+
+# clean rule for target.
+CMakeFiles/getSupportMethods.dir/clean:
+	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/clean
+.PHONY : CMakeFiles/getSupportMethods.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/getSupportMethods.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FileIOTest.dir
+
+# All Build rule for target.
+CMakeFiles/FileIOTest.dir/all:
+	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/depend
+	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target FileIOTest"
+.PHONY : CMakeFiles/FileIOTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/FileIOTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FileIOTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FileIOTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FileIOTest.dir/rule
+
+# Convenience name for target.
+FileIOTest: CMakeFiles/FileIOTest.dir/rule
+
+.PHONY : FileIOTest
+
+# clean rule for target.
+CMakeFiles/FileIOTest.dir/clean:
+	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/clean
+.PHONY : CMakeFiles/FileIOTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FileIOTest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/someTest.dir
 
 # All Build rule for target.
 CMakeFiles/someTest.dir/all:
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/depend
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target someTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target someTest"
 .PHONY : CMakeFiles/someTest.dir/all
 
 # Include target in all.
@@ -102,39 +176,187 @@ clean: CMakeFiles/someTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/FileIOTest.dir
+# Target rules for target CMakeFiles/AsimplerRot13ServerWithLibevent.dir
 
 # All Build rule for target.
-CMakeFiles/FileIOTest.dir/all:
-	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/depend
-	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target FileIOTest"
-.PHONY : CMakeFiles/FileIOTest.dir/all
+CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/depend
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target AsimplerRot13ServerWithLibevent"
+.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
 
 # Include target in all.
-all: CMakeFiles/FileIOTest.dir/all
+all: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FileIOTest.dir/rule: cmake_check_build_system
+CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FileIOTest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/FileIOTest.dir/rule
+.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule
 
 # Convenience name for target.
-FileIOTest: CMakeFiles/FileIOTest.dir/rule
+AsimplerRot13ServerWithLibevent: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule
 
-.PHONY : FileIOTest
-
-# clean rule for target.
-CMakeFiles/FileIOTest.dir/clean:
-	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/clean
-.PHONY : CMakeFiles/FileIOTest.dir/clean
+.PHONY : AsimplerRot13ServerWithLibevent
 
 # clean rule for target.
-clean: CMakeFiles/FileIOTest.dir/clean
+CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean:
+	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
+.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AsimpleBlockingHttpClient.dir
+
+# All Build rule for target.
+CMakeFiles/AsimpleBlockingHttpClient.dir/all:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/depend
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AsimpleBlockingHttpClient"
+.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/all
+
+# Include target in all.
+all: CMakeFiles/AsimpleBlockingHttpClient.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AsimpleBlockingHttpClient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AsimpleBlockingHttpClient.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/rule
+
+# Convenience name for target.
+AsimpleBlockingHttpClient: CMakeFiles/AsimpleBlockingHttpClient.dir/rule
+
+.PHONY : AsimpleBlockingHttpClient
+
+# clean rule for target.
+CMakeFiles/AsimpleBlockingHttpClient.dir/clean:
+	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/clean
+.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AsimpleBlockingHttpClient.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ForkingROT13Server.dir
+
+# All Build rule for target.
+CMakeFiles/ForkingROT13Server.dir/all:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/depend
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ForkingROT13Server"
+.PHONY : CMakeFiles/ForkingROT13Server.dir/all
+
+# Include target in all.
+all: CMakeFiles/ForkingROT13Server.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ForkingROT13Server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ForkingROT13Server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ForkingROT13Server.dir/rule
+
+# Convenience name for target.
+ForkingROT13Server: CMakeFiles/ForkingROT13Server.dir/rule
+
+.PHONY : ForkingROT13Server
+
+# clean rule for target.
+CMakeFiles/ForkingROT13Server.dir/clean:
+	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/clean
+.PHONY : CMakeFiles/ForkingROT13Server.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ForkingROT13Server.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/slectBaseRot13Server.dir
+
+# All Build rule for target.
+CMakeFiles/slectBaseRot13Server.dir/all:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/depend
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target slectBaseRot13Server"
+.PHONY : CMakeFiles/slectBaseRot13Server.dir/all
+
+# Include target in all.
+all: CMakeFiles/slectBaseRot13Server.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/slectBaseRot13Server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/slectBaseRot13Server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/slectBaseRot13Server.dir/rule
+
+# Convenience name for target.
+slectBaseRot13Server: CMakeFiles/slectBaseRot13Server.dir/rule
+
+.PHONY : slectBaseRot13Server
+
+# clean rule for target.
+CMakeFiles/slectBaseRot13Server.dir/clean:
+	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/clean
+.PHONY : CMakeFiles/slectBaseRot13Server.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/slectBaseRot13Server.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/aLowLevelRot13ServerWithLibevent.dir
+
+# All Build rule for target.
+CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/depend
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target aLowLevelRot13ServerWithLibevent"
+.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
+
+# Include target in all.
+all: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule
+
+# Convenience name for target.
+aLowLevelRot13ServerWithLibevent: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule
+
+.PHONY : aLowLevelRot13ServerWithLibevent
+
+# clean rule for target.
+CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean:
+	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
+.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
 
 .PHONY : clean
 
