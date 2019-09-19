@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvTcpSever.dir/libuv/tcpEchoServer/main.cpp.o  -o libuvTcpSever  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

@@ -65,39 +65,187 @@ CMAKE_SOURCE_DIR = /tmp/tmp.t0bl1udGgi
 CMAKE_BINARY_DIR = /tmp/tmp.t0bl1udGgi/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/getSupportMethods.dir
+# Target rules for target CMakeFiles/libuvInterface.dir
 
 # All Build rule for target.
-CMakeFiles/getSupportMethods.dir/all:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/depend
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target getSupportMethods"
-.PHONY : CMakeFiles/getSupportMethods.dir/all
+CMakeFiles/libuvInterface.dir/all:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/depend
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target libuvInterface"
+.PHONY : CMakeFiles/libuvInterface.dir/all
 
 # Include target in all.
-all: CMakeFiles/getSupportMethods.dir/all
+all: CMakeFiles/libuvInterface.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/getSupportMethods.dir/rule: cmake_check_build_system
+CMakeFiles/libuvInterface.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/getSupportMethods.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/getSupportMethods.dir/rule
+.PHONY : CMakeFiles/libuvInterface.dir/rule
 
 # Convenience name for target.
-getSupportMethods: CMakeFiles/getSupportMethods.dir/rule
+libuvInterface: CMakeFiles/libuvInterface.dir/rule
 
-.PHONY : getSupportMethods
-
-# clean rule for target.
-CMakeFiles/getSupportMethods.dir/clean:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/clean
-.PHONY : CMakeFiles/getSupportMethods.dir/clean
+.PHONY : libuvInterface
 
 # clean rule for target.
-clean: CMakeFiles/getSupportMethods.dir/clean
+CMakeFiles/libuvInterface.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/clean
+.PHONY : CMakeFiles/libuvInterface.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvInterface.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libuvDNS.dir
+
+# All Build rule for target.
+CMakeFiles/libuvDNS.dir/all:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/depend
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target libuvDNS"
+.PHONY : CMakeFiles/libuvDNS.dir/all
+
+# Include target in all.
+all: CMakeFiles/libuvDNS.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvDNS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvDNS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvDNS.dir/rule
+
+# Convenience name for target.
+libuvDNS: CMakeFiles/libuvDNS.dir/rule
+
+.PHONY : libuvDNS
+
+# clean rule for target.
+CMakeFiles/libuvDNS.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/clean
+.PHONY : CMakeFiles/libuvDNS.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvDNS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libuvTcpSever.dir
+
+# All Build rule for target.
+CMakeFiles/libuvTcpSever.dir/all:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/depend
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target libuvTcpSever"
+.PHONY : CMakeFiles/libuvTcpSever.dir/all
+
+# Include target in all.
+all: CMakeFiles/libuvTcpSever.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvTcpSever.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvTcpSever.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvTcpSever.dir/rule
+
+# Convenience name for target.
+libuvTcpSever: CMakeFiles/libuvTcpSever.dir/rule
+
+.PHONY : libuvTcpSever
+
+# clean rule for target.
+CMakeFiles/libuvTcpSever.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/clean
+.PHONY : CMakeFiles/libuvTcpSever.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvTcpSever.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libuvonchange.dir
+
+# All Build rule for target.
+CMakeFiles/libuvonchange.dir/all:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/depend
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target libuvonchange"
+.PHONY : CMakeFiles/libuvonchange.dir/all
+
+# Include target in all.
+all: CMakeFiles/libuvonchange.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvonchange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvonchange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvonchange.dir/rule
+
+# Convenience name for target.
+libuvonchange: CMakeFiles/libuvonchange.dir/rule
+
+.PHONY : libuvonchange
+
+# clean rule for target.
+CMakeFiles/libuvonchange.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/clean
+.PHONY : CMakeFiles/libuvonchange.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvonchange.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libuvtee.dir
+
+# All Build rule for target.
+CMakeFiles/libuvtee.dir/all:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/depend
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target libuvtee"
+.PHONY : CMakeFiles/libuvtee.dir/all
+
+# Include target in all.
+all: CMakeFiles/libuvtee.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvtee.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvtee.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvtee.dir/rule
+
+# Convenience name for target.
+libuvtee: CMakeFiles/libuvtee.dir/rule
+
+.PHONY : libuvtee
+
+# clean rule for target.
+CMakeFiles/libuvtee.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/clean
+.PHONY : CMakeFiles/libuvtee.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvtee.dir/clean
 
 .PHONY : clean
 
@@ -108,7 +256,7 @@ clean: CMakeFiles/getSupportMethods.dir/clean
 CMakeFiles/FileIOTest.dir/all:
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/depend
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target FileIOTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target FileIOTest"
 .PHONY : CMakeFiles/FileIOTest.dir/all
 
 # Include target in all.
@@ -139,13 +287,50 @@ clean: CMakeFiles/FileIOTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/libuvUDP.dir
+
+# All Build rule for target.
+CMakeFiles/libuvUDP.dir/all:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/depend
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target libuvUDP"
+.PHONY : CMakeFiles/libuvUDP.dir/all
+
+# Include target in all.
+all: CMakeFiles/libuvUDP.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvUDP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvUDP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvUDP.dir/rule
+
+# Convenience name for target.
+libuvUDP: CMakeFiles/libuvUDP.dir/rule
+
+.PHONY : libuvUDP
+
+# clean rule for target.
+CMakeFiles/libuvUDP.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/clean
+.PHONY : CMakeFiles/libuvUDP.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvUDP.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/someTest.dir
 
 # All Build rule for target.
 CMakeFiles/someTest.dir/all:
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/depend
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target someTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target someTest"
 .PHONY : CMakeFiles/someTest.dir/all
 
 # Include target in all.
@@ -176,187 +361,150 @@ clean: CMakeFiles/someTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/AsimplerRot13ServerWithLibevent.dir
+# Target rules for target CMakeFiles/libuvIdleBasic.dir
 
 # All Build rule for target.
-CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/depend
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target AsimplerRot13ServerWithLibevent"
-.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
+CMakeFiles/libuvIdleBasic.dir/all:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/depend
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target libuvIdleBasic"
+.PHONY : CMakeFiles/libuvIdleBasic.dir/all
 
 # Include target in all.
-all: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
+all: CMakeFiles/libuvIdleBasic.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule: cmake_check_build_system
+CMakeFiles/libuvIdleBasic.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AsimplerRot13ServerWithLibevent.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvIdleBasic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule
+.PHONY : CMakeFiles/libuvIdleBasic.dir/rule
 
 # Convenience name for target.
-AsimplerRot13ServerWithLibevent: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/rule
+libuvIdleBasic: CMakeFiles/libuvIdleBasic.dir/rule
 
-.PHONY : AsimplerRot13ServerWithLibevent
-
-# clean rule for target.
-CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
-.PHONY : CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
+.PHONY : libuvIdleBasic
 
 # clean rule for target.
-clean: CMakeFiles/AsimplerRot13ServerWithLibevent.dir/clean
+CMakeFiles/libuvIdleBasic.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/clean
+.PHONY : CMakeFiles/libuvIdleBasic.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvIdleBasic.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/AsimpleBlockingHttpClient.dir
+# Target rules for target CMakeFiles/linkTest.dir
 
 # All Build rule for target.
-CMakeFiles/AsimpleBlockingHttpClient.dir/all:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/depend
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AsimpleBlockingHttpClient"
-.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/all
+CMakeFiles/linkTest.dir/all:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/depend
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target linkTest"
+.PHONY : CMakeFiles/linkTest.dir/all
 
 # Include target in all.
-all: CMakeFiles/AsimpleBlockingHttpClient.dir/all
+all: CMakeFiles/linkTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AsimpleBlockingHttpClient.dir/rule: cmake_check_build_system
+CMakeFiles/linkTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AsimpleBlockingHttpClient.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linkTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/rule
+.PHONY : CMakeFiles/linkTest.dir/rule
 
 # Convenience name for target.
-AsimpleBlockingHttpClient: CMakeFiles/AsimpleBlockingHttpClient.dir/rule
+linkTest: CMakeFiles/linkTest.dir/rule
 
-.PHONY : AsimpleBlockingHttpClient
-
-# clean rule for target.
-CMakeFiles/AsimpleBlockingHttpClient.dir/clean:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/clean
-.PHONY : CMakeFiles/AsimpleBlockingHttpClient.dir/clean
+.PHONY : linkTest
 
 # clean rule for target.
-clean: CMakeFiles/AsimpleBlockingHttpClient.dir/clean
+CMakeFiles/linkTest.dir/clean:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/clean
+.PHONY : CMakeFiles/linkTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/linkTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ForkingROT13Server.dir
+# Target rules for target CMakeFiles/libuvHelloWorld.dir
 
 # All Build rule for target.
-CMakeFiles/ForkingROT13Server.dir/all:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/depend
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ForkingROT13Server"
-.PHONY : CMakeFiles/ForkingROT13Server.dir/all
+CMakeFiles/libuvHelloWorld.dir/all:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/depend
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target libuvHelloWorld"
+.PHONY : CMakeFiles/libuvHelloWorld.dir/all
 
 # Include target in all.
-all: CMakeFiles/ForkingROT13Server.dir/all
+all: CMakeFiles/libuvHelloWorld.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ForkingROT13Server.dir/rule: cmake_check_build_system
+CMakeFiles/libuvHelloWorld.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ForkingROT13Server.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvHelloWorld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ForkingROT13Server.dir/rule
+.PHONY : CMakeFiles/libuvHelloWorld.dir/rule
 
 # Convenience name for target.
-ForkingROT13Server: CMakeFiles/ForkingROT13Server.dir/rule
+libuvHelloWorld: CMakeFiles/libuvHelloWorld.dir/rule
 
-.PHONY : ForkingROT13Server
-
-# clean rule for target.
-CMakeFiles/ForkingROT13Server.dir/clean:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/clean
-.PHONY : CMakeFiles/ForkingROT13Server.dir/clean
+.PHONY : libuvHelloWorld
 
 # clean rule for target.
-clean: CMakeFiles/ForkingROT13Server.dir/clean
+CMakeFiles/libuvHelloWorld.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/clean
+.PHONY : CMakeFiles/libuvHelloWorld.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libuvHelloWorld.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/slectBaseRot13Server.dir
+# Target rules for target CMakeFiles/libuvUvcat.dir
 
 # All Build rule for target.
-CMakeFiles/slectBaseRot13Server.dir/all:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/depend
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target slectBaseRot13Server"
-.PHONY : CMakeFiles/slectBaseRot13Server.dir/all
+CMakeFiles/libuvUvcat.dir/all:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/depend
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target libuvUvcat"
+.PHONY : CMakeFiles/libuvUvcat.dir/all
 
 # Include target in all.
-all: CMakeFiles/slectBaseRot13Server.dir/all
+all: CMakeFiles/libuvUvcat.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/slectBaseRot13Server.dir/rule: cmake_check_build_system
+CMakeFiles/libuvUvcat.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/slectBaseRot13Server.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvUvcat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/slectBaseRot13Server.dir/rule
+.PHONY : CMakeFiles/libuvUvcat.dir/rule
 
 # Convenience name for target.
-slectBaseRot13Server: CMakeFiles/slectBaseRot13Server.dir/rule
+libuvUvcat: CMakeFiles/libuvUvcat.dir/rule
 
-.PHONY : slectBaseRot13Server
-
-# clean rule for target.
-CMakeFiles/slectBaseRot13Server.dir/clean:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/clean
-.PHONY : CMakeFiles/slectBaseRot13Server.dir/clean
+.PHONY : libuvUvcat
 
 # clean rule for target.
-clean: CMakeFiles/slectBaseRot13Server.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/aLowLevelRot13ServerWithLibevent.dir
-
-# All Build rule for target.
-CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/depend
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target aLowLevelRot13ServerWithLibevent"
-.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
-
-# Include target in all.
-all: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule
-
-# Convenience name for target.
-aLowLevelRot13ServerWithLibevent: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/rule
-
-.PHONY : aLowLevelRot13ServerWithLibevent
+CMakeFiles/libuvUvcat.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/clean
+.PHONY : CMakeFiles/libuvUvcat.dir/clean
 
 # clean rule for target.
-CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
-.PHONY : CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/clean
+clean: CMakeFiles/libuvUvcat.dir/clean
 
 .PHONY : clean
 

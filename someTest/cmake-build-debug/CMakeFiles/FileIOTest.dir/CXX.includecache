@@ -41,6 +41,10 @@ sys/wait.h
 -
 sched.h
 -
+sys/stat.h
+-
+sys/sysmacros.h
+-
 
 /tmp/tmp.t0bl1udGgi/FileIO/test.h
 sys/types.h

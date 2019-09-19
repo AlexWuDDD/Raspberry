@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvDNS.dir/libuv/dns/main.cpp.o  -o libuvDNS  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

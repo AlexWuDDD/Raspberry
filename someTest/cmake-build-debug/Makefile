@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /tmp/tmp.t0bl1udGgi/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named getSupportMethods
+# Target rules for targets named libuvInterface
 
 # Build rule for target.
-getSupportMethods: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 getSupportMethods
-.PHONY : getSupportMethods
+libuvInterface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvInterface
+.PHONY : libuvInterface
 
 # fast build rule for target.
-getSupportMethods/fast:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/build
-.PHONY : getSupportMethods/fast
+libuvInterface/fast:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/build
+.PHONY : libuvInterface/fast
+
+#=============================================================================
+# Target rules for targets named libuvDNS
+
+# Build rule for target.
+libuvDNS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvDNS
+.PHONY : libuvDNS
+
+# fast build rule for target.
+libuvDNS/fast:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/build
+.PHONY : libuvDNS/fast
+
+#=============================================================================
+# Target rules for targets named libuvTcpSever
+
+# Build rule for target.
+libuvTcpSever: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvTcpSever
+.PHONY : libuvTcpSever
+
+# fast build rule for target.
+libuvTcpSever/fast:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/build
+.PHONY : libuvTcpSever/fast
+
+#=============================================================================
+# Target rules for targets named libuvonchange
+
+# Build rule for target.
+libuvonchange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvonchange
+.PHONY : libuvonchange
+
+# fast build rule for target.
+libuvonchange/fast:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/build
+.PHONY : libuvonchange/fast
+
+#=============================================================================
+# Target rules for targets named libuvtee
+
+# Build rule for target.
+libuvtee: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvtee
+.PHONY : libuvtee
+
+# fast build rule for target.
+libuvtee/fast:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/build
+.PHONY : libuvtee/fast
 
 #=============================================================================
 # Target rules for targets named FileIOTest
@@ -137,6 +189,19 @@ FileIOTest/fast:
 .PHONY : FileIOTest/fast
 
 #=============================================================================
+# Target rules for targets named libuvUDP
+
+# Build rule for target.
+libuvUDP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvUDP
+.PHONY : libuvUDP
+
+# fast build rule for target.
+libuvUDP/fast:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/build
+.PHONY : libuvUDP/fast
+
+#=============================================================================
 # Target rules for targets named someTest
 
 # Build rule for target.
@@ -150,69 +215,56 @@ someTest/fast:
 .PHONY : someTest/fast
 
 #=============================================================================
-# Target rules for targets named AsimplerRot13ServerWithLibevent
+# Target rules for targets named libuvIdleBasic
 
 # Build rule for target.
-AsimplerRot13ServerWithLibevent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AsimplerRot13ServerWithLibevent
-.PHONY : AsimplerRot13ServerWithLibevent
+libuvIdleBasic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvIdleBasic
+.PHONY : libuvIdleBasic
 
 # fast build rule for target.
-AsimplerRot13ServerWithLibevent/fast:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build
-.PHONY : AsimplerRot13ServerWithLibevent/fast
+libuvIdleBasic/fast:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/build
+.PHONY : libuvIdleBasic/fast
 
 #=============================================================================
-# Target rules for targets named AsimpleBlockingHttpClient
+# Target rules for targets named linkTest
 
 # Build rule for target.
-AsimpleBlockingHttpClient: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AsimpleBlockingHttpClient
-.PHONY : AsimpleBlockingHttpClient
+linkTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkTest
+.PHONY : linkTest
 
 # fast build rule for target.
-AsimpleBlockingHttpClient/fast:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/build
-.PHONY : AsimpleBlockingHttpClient/fast
+linkTest/fast:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/build
+.PHONY : linkTest/fast
 
 #=============================================================================
-# Target rules for targets named ForkingROT13Server
+# Target rules for targets named libuvHelloWorld
 
 # Build rule for target.
-ForkingROT13Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ForkingROT13Server
-.PHONY : ForkingROT13Server
+libuvHelloWorld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvHelloWorld
+.PHONY : libuvHelloWorld
 
 # fast build rule for target.
-ForkingROT13Server/fast:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/build
-.PHONY : ForkingROT13Server/fast
+libuvHelloWorld/fast:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/build
+.PHONY : libuvHelloWorld/fast
 
 #=============================================================================
-# Target rules for targets named slectBaseRot13Server
+# Target rules for targets named libuvUvcat
 
 # Build rule for target.
-slectBaseRot13Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 slectBaseRot13Server
-.PHONY : slectBaseRot13Server
+libuvUvcat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvUvcat
+.PHONY : libuvUvcat
 
 # fast build rule for target.
-slectBaseRot13Server/fast:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/build
-.PHONY : slectBaseRot13Server/fast
-
-#=============================================================================
-# Target rules for targets named aLowLevelRot13ServerWithLibevent
-
-# Build rule for target.
-aLowLevelRot13ServerWithLibevent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aLowLevelRot13ServerWithLibevent
-.PHONY : aLowLevelRot13ServerWithLibevent
-
-# fast build rule for target.
-aLowLevelRot13ServerWithLibevent/fast:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build
-.PHONY : aLowLevelRot13ServerWithLibevent/fast
+libuvUvcat/fast:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/build
+.PHONY : libuvUvcat/fast
 
 FileIO/test.o: FileIO/test.cpp.o
 
@@ -241,167 +293,275 @@ FileIO/test.cpp.s:
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/FileIO/test.cpp.s
 .PHONY : FileIO/test.cpp.s
 
-libevent/AlowlevelROT13ServerWithLIbevent.o: libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
+libuv/UDP/main.o: libuv/UDP/main.cpp.o
 
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.o
-
-# target to build an object file
-libevent/AlowlevelROT13ServerWithLIbevent.cpp.o:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.o
-
-libevent/AlowlevelROT13ServerWithLIbevent.i: libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
-
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.i
-
-# target to preprocess a source file
-libevent/AlowlevelROT13ServerWithLIbevent.cpp.i:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.i
-
-libevent/AlowlevelROT13ServerWithLIbevent.s: libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
-
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.s
-
-# target to generate assembly for a file
-libevent/AlowlevelROT13ServerWithLIbevent.cpp.s:
-	$(MAKE) -f CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/build.make CMakeFiles/aLowLevelRot13ServerWithLibevent.dir/libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
-.PHONY : libevent/AlowlevelROT13ServerWithLIbevent.cpp.s
-
-libevent/AsimpleBlockingHttpClient.o: libevent/AsimpleBlockingHttpClient.cpp.o
-
-.PHONY : libevent/AsimpleBlockingHttpClient.o
+.PHONY : libuv/UDP/main.o
 
 # target to build an object file
-libevent/AsimpleBlockingHttpClient.cpp.o:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.o
-.PHONY : libevent/AsimpleBlockingHttpClient.cpp.o
+libuv/UDP/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/libuv/UDP/main.cpp.o
+.PHONY : libuv/UDP/main.cpp.o
 
-libevent/AsimpleBlockingHttpClient.i: libevent/AsimpleBlockingHttpClient.cpp.i
+libuv/UDP/main.i: libuv/UDP/main.cpp.i
 
-.PHONY : libevent/AsimpleBlockingHttpClient.i
+.PHONY : libuv/UDP/main.i
 
 # target to preprocess a source file
-libevent/AsimpleBlockingHttpClient.cpp.i:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.i
-.PHONY : libevent/AsimpleBlockingHttpClient.cpp.i
+libuv/UDP/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/libuv/UDP/main.cpp.i
+.PHONY : libuv/UDP/main.cpp.i
 
-libevent/AsimpleBlockingHttpClient.s: libevent/AsimpleBlockingHttpClient.cpp.s
+libuv/UDP/main.s: libuv/UDP/main.cpp.s
 
-.PHONY : libevent/AsimpleBlockingHttpClient.s
+.PHONY : libuv/UDP/main.s
 
 # target to generate assembly for a file
-libevent/AsimpleBlockingHttpClient.cpp.s:
-	$(MAKE) -f CMakeFiles/AsimpleBlockingHttpClient.dir/build.make CMakeFiles/AsimpleBlockingHttpClient.dir/libevent/AsimpleBlockingHttpClient.cpp.s
-.PHONY : libevent/AsimpleBlockingHttpClient.cpp.s
+libuv/UDP/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/libuv/UDP/main.cpp.s
+.PHONY : libuv/UDP/main.cpp.s
 
-libevent/AsimplerROT13serverwithLibevent.o: libevent/AsimplerROT13serverwithLibevent.cpp.o
+libuv/dns/main.o: libuv/dns/main.cpp.o
 
-.PHONY : libevent/AsimplerROT13serverwithLibevent.o
+.PHONY : libuv/dns/main.o
 
 # target to build an object file
-libevent/AsimplerROT13serverwithLibevent.cpp.o:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.o
-.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.o
+libuv/dns/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/libuv/dns/main.cpp.o
+.PHONY : libuv/dns/main.cpp.o
 
-libevent/AsimplerROT13serverwithLibevent.i: libevent/AsimplerROT13serverwithLibevent.cpp.i
+libuv/dns/main.i: libuv/dns/main.cpp.i
 
-.PHONY : libevent/AsimplerROT13serverwithLibevent.i
+.PHONY : libuv/dns/main.i
 
 # target to preprocess a source file
-libevent/AsimplerROT13serverwithLibevent.cpp.i:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.i
-.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.i
+libuv/dns/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/libuv/dns/main.cpp.i
+.PHONY : libuv/dns/main.cpp.i
 
-libevent/AsimplerROT13serverwithLibevent.s: libevent/AsimplerROT13serverwithLibevent.cpp.s
+libuv/dns/main.s: libuv/dns/main.cpp.s
 
-.PHONY : libevent/AsimplerROT13serverwithLibevent.s
+.PHONY : libuv/dns/main.s
 
 # target to generate assembly for a file
-libevent/AsimplerROT13serverwithLibevent.cpp.s:
-	$(MAKE) -f CMakeFiles/AsimplerRot13ServerWithLibevent.dir/build.make CMakeFiles/AsimplerRot13ServerWithLibevent.dir/libevent/AsimplerROT13serverwithLibevent.cpp.s
-.PHONY : libevent/AsimplerROT13serverwithLibevent.cpp.s
+libuv/dns/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/libuv/dns/main.cpp.s
+.PHONY : libuv/dns/main.cpp.s
 
-libevent/ForkingROT13Server.o: libevent/ForkingROT13Server.cpp.o
+libuv/helloworld/main.o: libuv/helloworld/main.cpp.o
 
-.PHONY : libevent/ForkingROT13Server.o
+.PHONY : libuv/helloworld/main.o
 
 # target to build an object file
-libevent/ForkingROT13Server.cpp.o:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.o
-.PHONY : libevent/ForkingROT13Server.cpp.o
+libuv/helloworld/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/libuv/helloworld/main.cpp.o
+.PHONY : libuv/helloworld/main.cpp.o
 
-libevent/ForkingROT13Server.i: libevent/ForkingROT13Server.cpp.i
+libuv/helloworld/main.i: libuv/helloworld/main.cpp.i
 
-.PHONY : libevent/ForkingROT13Server.i
+.PHONY : libuv/helloworld/main.i
 
 # target to preprocess a source file
-libevent/ForkingROT13Server.cpp.i:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.i
-.PHONY : libevent/ForkingROT13Server.cpp.i
+libuv/helloworld/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/libuv/helloworld/main.cpp.i
+.PHONY : libuv/helloworld/main.cpp.i
 
-libevent/ForkingROT13Server.s: libevent/ForkingROT13Server.cpp.s
+libuv/helloworld/main.s: libuv/helloworld/main.cpp.s
 
-.PHONY : libevent/ForkingROT13Server.s
+.PHONY : libuv/helloworld/main.s
 
 # target to generate assembly for a file
-libevent/ForkingROT13Server.cpp.s:
-	$(MAKE) -f CMakeFiles/ForkingROT13Server.dir/build.make CMakeFiles/ForkingROT13Server.dir/libevent/ForkingROT13Server.cpp.s
-.PHONY : libevent/ForkingROT13Server.cpp.s
+libuv/helloworld/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/libuv/helloworld/main.cpp.s
+.PHONY : libuv/helloworld/main.cpp.s
 
-libevent/eventBase/getSupportMethods.o: libevent/eventBase/getSupportMethods.cpp.o
+libuv/idleBasic/main.o: libuv/idleBasic/main.cpp.o
 
-.PHONY : libevent/eventBase/getSupportMethods.o
+.PHONY : libuv/idleBasic/main.o
 
 # target to build an object file
-libevent/eventBase/getSupportMethods.cpp.o:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.o
-.PHONY : libevent/eventBase/getSupportMethods.cpp.o
+libuv/idleBasic/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/libuv/idleBasic/main.cpp.o
+.PHONY : libuv/idleBasic/main.cpp.o
 
-libevent/eventBase/getSupportMethods.i: libevent/eventBase/getSupportMethods.cpp.i
+libuv/idleBasic/main.i: libuv/idleBasic/main.cpp.i
 
-.PHONY : libevent/eventBase/getSupportMethods.i
+.PHONY : libuv/idleBasic/main.i
 
 # target to preprocess a source file
-libevent/eventBase/getSupportMethods.cpp.i:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.i
-.PHONY : libevent/eventBase/getSupportMethods.cpp.i
+libuv/idleBasic/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/libuv/idleBasic/main.cpp.i
+.PHONY : libuv/idleBasic/main.cpp.i
 
-libevent/eventBase/getSupportMethods.s: libevent/eventBase/getSupportMethods.cpp.s
+libuv/idleBasic/main.s: libuv/idleBasic/main.cpp.s
 
-.PHONY : libevent/eventBase/getSupportMethods.s
+.PHONY : libuv/idleBasic/main.s
 
 # target to generate assembly for a file
-libevent/eventBase/getSupportMethods.cpp.s:
-	$(MAKE) -f CMakeFiles/getSupportMethods.dir/build.make CMakeFiles/getSupportMethods.dir/libevent/eventBase/getSupportMethods.cpp.s
-.PHONY : libevent/eventBase/getSupportMethods.cpp.s
+libuv/idleBasic/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/libuv/idleBasic/main.cpp.s
+.PHONY : libuv/idleBasic/main.cpp.s
 
-libevent/select_base_rot13_server.o: libevent/select_base_rot13_server.cpp.o
+libuv/interfaces/main.o: libuv/interfaces/main.cpp.o
 
-.PHONY : libevent/select_base_rot13_server.o
+.PHONY : libuv/interfaces/main.o
 
 # target to build an object file
-libevent/select_base_rot13_server.cpp.o:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.o
-.PHONY : libevent/select_base_rot13_server.cpp.o
+libuv/interfaces/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/libuv/interfaces/main.cpp.o
+.PHONY : libuv/interfaces/main.cpp.o
 
-libevent/select_base_rot13_server.i: libevent/select_base_rot13_server.cpp.i
+libuv/interfaces/main.i: libuv/interfaces/main.cpp.i
 
-.PHONY : libevent/select_base_rot13_server.i
+.PHONY : libuv/interfaces/main.i
 
 # target to preprocess a source file
-libevent/select_base_rot13_server.cpp.i:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.i
-.PHONY : libevent/select_base_rot13_server.cpp.i
+libuv/interfaces/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/libuv/interfaces/main.cpp.i
+.PHONY : libuv/interfaces/main.cpp.i
 
-libevent/select_base_rot13_server.s: libevent/select_base_rot13_server.cpp.s
+libuv/interfaces/main.s: libuv/interfaces/main.cpp.s
 
-.PHONY : libevent/select_base_rot13_server.s
+.PHONY : libuv/interfaces/main.s
 
 # target to generate assembly for a file
-libevent/select_base_rot13_server.cpp.s:
-	$(MAKE) -f CMakeFiles/slectBaseRot13Server.dir/build.make CMakeFiles/slectBaseRot13Server.dir/libevent/select_base_rot13_server.cpp.s
-.PHONY : libevent/select_base_rot13_server.cpp.s
+libuv/interfaces/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/libuv/interfaces/main.cpp.s
+.PHONY : libuv/interfaces/main.cpp.s
+
+libuv/onchange/main.o: libuv/onchange/main.cpp.o
+
+.PHONY : libuv/onchange/main.o
+
+# target to build an object file
+libuv/onchange/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/libuv/onchange/main.cpp.o
+.PHONY : libuv/onchange/main.cpp.o
+
+libuv/onchange/main.i: libuv/onchange/main.cpp.i
+
+.PHONY : libuv/onchange/main.i
+
+# target to preprocess a source file
+libuv/onchange/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/libuv/onchange/main.cpp.i
+.PHONY : libuv/onchange/main.cpp.i
+
+libuv/onchange/main.s: libuv/onchange/main.cpp.s
+
+.PHONY : libuv/onchange/main.s
+
+# target to generate assembly for a file
+libuv/onchange/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/libuv/onchange/main.cpp.s
+.PHONY : libuv/onchange/main.cpp.s
+
+libuv/tcpEchoServer/main.o: libuv/tcpEchoServer/main.cpp.o
+
+.PHONY : libuv/tcpEchoServer/main.o
+
+# target to build an object file
+libuv/tcpEchoServer/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/libuv/tcpEchoServer/main.cpp.o
+.PHONY : libuv/tcpEchoServer/main.cpp.o
+
+libuv/tcpEchoServer/main.i: libuv/tcpEchoServer/main.cpp.i
+
+.PHONY : libuv/tcpEchoServer/main.i
+
+# target to preprocess a source file
+libuv/tcpEchoServer/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/libuv/tcpEchoServer/main.cpp.i
+.PHONY : libuv/tcpEchoServer/main.cpp.i
+
+libuv/tcpEchoServer/main.s: libuv/tcpEchoServer/main.cpp.s
+
+.PHONY : libuv/tcpEchoServer/main.s
+
+# target to generate assembly for a file
+libuv/tcpEchoServer/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/libuv/tcpEchoServer/main.cpp.s
+.PHONY : libuv/tcpEchoServer/main.cpp.s
+
+libuv/uvcat/main.o: libuv/uvcat/main.cpp.o
+
+.PHONY : libuv/uvcat/main.o
+
+# target to build an object file
+libuv/uvcat/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/libuv/uvcat/main.cpp.o
+.PHONY : libuv/uvcat/main.cpp.o
+
+libuv/uvcat/main.i: libuv/uvcat/main.cpp.i
+
+.PHONY : libuv/uvcat/main.i
+
+# target to preprocess a source file
+libuv/uvcat/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/libuv/uvcat/main.cpp.i
+.PHONY : libuv/uvcat/main.cpp.i
+
+libuv/uvcat/main.s: libuv/uvcat/main.cpp.s
+
+.PHONY : libuv/uvcat/main.s
+
+# target to generate assembly for a file
+libuv/uvcat/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/libuv/uvcat/main.cpp.s
+.PHONY : libuv/uvcat/main.cpp.s
+
+libuv/uvtee/main.o: libuv/uvtee/main.cpp.o
+
+.PHONY : libuv/uvtee/main.o
+
+# target to build an object file
+libuv/uvtee/main.cpp.o:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/libuv/uvtee/main.cpp.o
+.PHONY : libuv/uvtee/main.cpp.o
+
+libuv/uvtee/main.i: libuv/uvtee/main.cpp.i
+
+.PHONY : libuv/uvtee/main.i
+
+# target to preprocess a source file
+libuv/uvtee/main.cpp.i:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/libuv/uvtee/main.cpp.i
+.PHONY : libuv/uvtee/main.cpp.i
+
+libuv/uvtee/main.s: libuv/uvtee/main.cpp.s
+
+.PHONY : libuv/uvtee/main.s
+
+# target to generate assembly for a file
+libuv/uvtee/main.cpp.s:
+	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/libuv/uvtee/main.cpp.s
+.PHONY : libuv/uvtee/main.cpp.s
+
+linkTest.o: linkTest.cpp.o
+
+.PHONY : linkTest.o
+
+# target to build an object file
+linkTest.cpp.o:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/linkTest.cpp.o
+.PHONY : linkTest.cpp.o
+
+linkTest.i: linkTest.cpp.i
+
+.PHONY : linkTest.i
+
+# target to preprocess a source file
+linkTest.cpp.i:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/linkTest.cpp.i
+.PHONY : linkTest.cpp.i
+
+linkTest.s: linkTest.cpp.s
+
+.PHONY : linkTest.s
+
+# target to generate assembly for a file
+linkTest.cpp.s:
+	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/linkTest.cpp.s
+.PHONY : linkTest.cpp.s
 
 main.o: main.cpp.o
 
@@ -436,37 +596,53 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... getSupportMethods"
-	@echo "... FileIOTest"
-	@echo "... someTest"
-	@echo "... AsimplerRot13ServerWithLibevent"
-	@echo "... AsimpleBlockingHttpClient"
 	@echo "... rebuild_cache"
-	@echo "... ForkingROT13Server"
-	@echo "... slectBaseRot13Server"
-	@echo "... aLowLevelRot13ServerWithLibevent"
+	@echo "... edit_cache"
+	@echo "... libuvInterface"
+	@echo "... libuvDNS"
+	@echo "... libuvTcpSever"
+	@echo "... libuvonchange"
+	@echo "... libuvtee"
+	@echo "... FileIOTest"
+	@echo "... libuvUDP"
+	@echo "... someTest"
+	@echo "... libuvIdleBasic"
+	@echo "... linkTest"
+	@echo "... libuvHelloWorld"
+	@echo "... libuvUvcat"
 	@echo "... FileIO/test.o"
 	@echo "... FileIO/test.i"
 	@echo "... FileIO/test.s"
-	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.o"
-	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.i"
-	@echo "... libevent/AlowlevelROT13ServerWithLIbevent.s"
-	@echo "... libevent/AsimpleBlockingHttpClient.o"
-	@echo "... libevent/AsimpleBlockingHttpClient.i"
-	@echo "... libevent/AsimpleBlockingHttpClient.s"
-	@echo "... libevent/AsimplerROT13serverwithLibevent.o"
-	@echo "... libevent/AsimplerROT13serverwithLibevent.i"
-	@echo "... libevent/AsimplerROT13serverwithLibevent.s"
-	@echo "... libevent/ForkingROT13Server.o"
-	@echo "... libevent/ForkingROT13Server.i"
-	@echo "... libevent/ForkingROT13Server.s"
-	@echo "... libevent/eventBase/getSupportMethods.o"
-	@echo "... libevent/eventBase/getSupportMethods.i"
-	@echo "... libevent/eventBase/getSupportMethods.s"
-	@echo "... libevent/select_base_rot13_server.o"
-	@echo "... libevent/select_base_rot13_server.i"
-	@echo "... libevent/select_base_rot13_server.s"
+	@echo "... libuv/UDP/main.o"
+	@echo "... libuv/UDP/main.i"
+	@echo "... libuv/UDP/main.s"
+	@echo "... libuv/dns/main.o"
+	@echo "... libuv/dns/main.i"
+	@echo "... libuv/dns/main.s"
+	@echo "... libuv/helloworld/main.o"
+	@echo "... libuv/helloworld/main.i"
+	@echo "... libuv/helloworld/main.s"
+	@echo "... libuv/idleBasic/main.o"
+	@echo "... libuv/idleBasic/main.i"
+	@echo "... libuv/idleBasic/main.s"
+	@echo "... libuv/interfaces/main.o"
+	@echo "... libuv/interfaces/main.i"
+	@echo "... libuv/interfaces/main.s"
+	@echo "... libuv/onchange/main.o"
+	@echo "... libuv/onchange/main.i"
+	@echo "... libuv/onchange/main.s"
+	@echo "... libuv/tcpEchoServer/main.o"
+	@echo "... libuv/tcpEchoServer/main.i"
+	@echo "... libuv/tcpEchoServer/main.s"
+	@echo "... libuv/uvcat/main.o"
+	@echo "... libuv/uvcat/main.i"
+	@echo "... libuv/uvcat/main.s"
+	@echo "... libuv/uvtee/main.o"
+	@echo "... libuv/uvtee/main.i"
+	@echo "... libuv/uvtee/main.s"
+	@echo "... linkTest.o"
+	@echo "... linkTest.i"
+	@echo "... linkTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

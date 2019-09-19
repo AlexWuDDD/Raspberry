@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvtee.dir/libuv/uvtee/main.cpp.o  -o libuvtee  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

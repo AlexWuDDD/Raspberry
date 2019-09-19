@@ -1,0 +1,11 @@
+./autogen.sh: 4: ./autogen.sh: autoreconf: not found
+
+解决方法如下
+
+1.  sudo apt-get install autoconf
+
+2.  sudo apt-get install automake
+
+3.sudo apt-get install libtool
+
+这时候再次执行./autogen.sh就不出错了

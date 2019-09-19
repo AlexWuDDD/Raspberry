@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvIdleBasic.dir/libuv/idleBasic/main.cpp.o  -o libuvIdleBasic  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

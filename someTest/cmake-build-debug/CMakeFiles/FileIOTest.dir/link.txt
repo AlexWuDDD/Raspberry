@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/FileIOTest.dir/FileIO/test.cpp.o  -o FileIOTest 
+/usr/bin/c++  -g   CMakeFiles/FileIOTest.dir/FileIO/test.cpp.o  -o FileIOTest  -L/usr/local/lib 

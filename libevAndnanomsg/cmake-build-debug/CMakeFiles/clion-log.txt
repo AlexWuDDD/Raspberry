@@ -1,14 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/tmp.wHw86nweM1
-CMake Warning (dev) in CMakeLists.txt:
-  No cmake_minimum_required command is present.  A line of code such as
+CMake executable not found: /usr/bin/cmake Configure
 
-    cmake_minimum_required(VERSION 3.13)
-
-  should be added at the top of the file.  The version specified may be lower
-  if you wish to support older CMake versions for this project.  For more
-  information run "cmake --help-policy CMP0000".
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- Configuring done
--- Generating done
--- Build files have been written to: /tmp/tmp.wHw86nweM1/cmake-build-debug
+Cannot get compiler information:
+	Unable to create temporary file

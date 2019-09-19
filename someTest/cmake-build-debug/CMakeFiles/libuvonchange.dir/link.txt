@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvonchange.dir/libuv/onchange/main.cpp.o  -o libuvonchange  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

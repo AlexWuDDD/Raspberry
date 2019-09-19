@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvInterface.dir/libuv/interfaces/main.cpp.o  -o libuvInterface  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -luv 

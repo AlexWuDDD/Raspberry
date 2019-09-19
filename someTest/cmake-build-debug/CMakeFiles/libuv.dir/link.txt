@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuv.dir/libuv/uvtee/main.cpp.o  -o libuv  -L/usr/local/lib 

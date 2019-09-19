@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/libuvIdle.dir/libuv/helloworld/main.cpp.o  -o libuvIdle  -L/usr/local/lib 
