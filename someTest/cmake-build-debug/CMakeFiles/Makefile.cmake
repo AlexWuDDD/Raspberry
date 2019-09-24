@@ -46,6 +46,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/algTest.dir/DependInfo.cmake"
+  "CMakeFiles/signaltest.dir/DependInfo.cmake"
   "CMakeFiles/libuvInterface.dir/DependInfo.cmake"
   "CMakeFiles/libuvDNS.dir/DependInfo.cmake"
   "CMakeFiles/libuvTcpSever.dir/DependInfo.cmake"

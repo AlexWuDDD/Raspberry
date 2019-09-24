@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/SIGNAL/main.cpp
+test.h
+/tmp/tmp.t0bl1udGgi/SIGNAL/test.h
+
+/tmp/tmp.t0bl1udGgi/SIGNAL/test.cpp
+cstdio
+-
+cstdlib
+-
+csignal
+-
+test.h
+/tmp/tmp.t0bl1udGgi/SIGNAL/test.h
+unistd.h
+-
+
+/tmp/tmp.t0bl1udGgi/SIGNAL/test.h
+

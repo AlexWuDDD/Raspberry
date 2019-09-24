@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.t0bl1udGgi/algorithm/arrayTest.cpp
+cstdio
+-
+arrayTest.h
+/tmp/tmp.t0bl1udGgi/algorithm/arrayTest.h
+
+/tmp/tmp.t0bl1udGgi/algorithm/arrayTest.h
+

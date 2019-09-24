@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/signaltest.dir/SIGNAL/main.cpp.o CMakeFiles/signaltest.dir/SIGNAL/test.cpp.o  -o signaltest  -L/usr/local/lib 

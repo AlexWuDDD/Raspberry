@@ -65,13 +65,87 @@ CMAKE_SOURCE_DIR = /tmp/tmp.t0bl1udGgi
 CMAKE_BINARY_DIR = /tmp/tmp.t0bl1udGgi/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/algTest.dir
+
+# All Build rule for target.
+CMakeFiles/algTest.dir/all:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/depend
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target algTest"
+.PHONY : CMakeFiles/algTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/algTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/algTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/algTest.dir/rule
+
+# Convenience name for target.
+algTest: CMakeFiles/algTest.dir/rule
+
+.PHONY : algTest
+
+# clean rule for target.
+CMakeFiles/algTest.dir/clean:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/clean
+.PHONY : CMakeFiles/algTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/algTest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/signaltest.dir
+
+# All Build rule for target.
+CMakeFiles/signaltest.dir/all:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/depend
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target signaltest"
+.PHONY : CMakeFiles/signaltest.dir/all
+
+# Include target in all.
+all: CMakeFiles/signaltest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/signaltest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signaltest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/signaltest.dir/rule
+
+# Convenience name for target.
+signaltest: CMakeFiles/signaltest.dir/rule
+
+.PHONY : signaltest
+
+# clean rule for target.
+CMakeFiles/signaltest.dir/clean:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/clean
+.PHONY : CMakeFiles/signaltest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/signaltest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/libuvInterface.dir
 
 # All Build rule for target.
 CMakeFiles/libuvInterface.dir/all:
 	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/depend
 	$(MAKE) -f CMakeFiles/libuvInterface.dir/build.make CMakeFiles/libuvInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target libuvInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target libuvInterface"
 .PHONY : CMakeFiles/libuvInterface.dir/all
 
 # Include target in all.
@@ -108,7 +182,7 @@ clean: CMakeFiles/libuvInterface.dir/clean
 CMakeFiles/libuvDNS.dir/all:
 	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/depend
 	$(MAKE) -f CMakeFiles/libuvDNS.dir/build.make CMakeFiles/libuvDNS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target libuvDNS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target libuvDNS"
 .PHONY : CMakeFiles/libuvDNS.dir/all
 
 # Include target in all.
@@ -145,7 +219,7 @@ clean: CMakeFiles/libuvDNS.dir/clean
 CMakeFiles/libuvTcpSever.dir/all:
 	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/depend
 	$(MAKE) -f CMakeFiles/libuvTcpSever.dir/build.make CMakeFiles/libuvTcpSever.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target libuvTcpSever"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target libuvTcpSever"
 .PHONY : CMakeFiles/libuvTcpSever.dir/all
 
 # Include target in all.
@@ -182,7 +256,7 @@ clean: CMakeFiles/libuvTcpSever.dir/clean
 CMakeFiles/libuvonchange.dir/all:
 	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/depend
 	$(MAKE) -f CMakeFiles/libuvonchange.dir/build.make CMakeFiles/libuvonchange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target libuvonchange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target libuvonchange"
 .PHONY : CMakeFiles/libuvonchange.dir/all
 
 # Include target in all.
@@ -219,7 +293,7 @@ clean: CMakeFiles/libuvonchange.dir/clean
 CMakeFiles/libuvtee.dir/all:
 	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/depend
 	$(MAKE) -f CMakeFiles/libuvtee.dir/build.make CMakeFiles/libuvtee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target libuvtee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target libuvtee"
 .PHONY : CMakeFiles/libuvtee.dir/all
 
 # Include target in all.
@@ -293,7 +367,7 @@ clean: CMakeFiles/FileIOTest.dir/clean
 CMakeFiles/libuvUDP.dir/all:
 	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/depend
 	$(MAKE) -f CMakeFiles/libuvUDP.dir/build.make CMakeFiles/libuvUDP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target libuvUDP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target libuvUDP"
 .PHONY : CMakeFiles/libuvUDP.dir/all
 
 # Include target in all.
@@ -330,7 +404,7 @@ clean: CMakeFiles/libuvUDP.dir/clean
 CMakeFiles/someTest.dir/all:
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/depend
 	$(MAKE) -f CMakeFiles/someTest.dir/build.make CMakeFiles/someTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target someTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target someTest"
 .PHONY : CMakeFiles/someTest.dir/all
 
 # Include target in all.
@@ -367,7 +441,7 @@ clean: CMakeFiles/someTest.dir/clean
 CMakeFiles/libuvIdleBasic.dir/all:
 	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/depend
 	$(MAKE) -f CMakeFiles/libuvIdleBasic.dir/build.make CMakeFiles/libuvIdleBasic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target libuvIdleBasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target libuvIdleBasic"
 .PHONY : CMakeFiles/libuvIdleBasic.dir/all
 
 # Include target in all.
@@ -404,7 +478,7 @@ clean: CMakeFiles/libuvIdleBasic.dir/clean
 CMakeFiles/linkTest.dir/all:
 	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/depend
 	$(MAKE) -f CMakeFiles/linkTest.dir/build.make CMakeFiles/linkTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target linkTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target linkTest"
 .PHONY : CMakeFiles/linkTest.dir/all
 
 # Include target in all.
@@ -441,7 +515,7 @@ clean: CMakeFiles/linkTest.dir/clean
 CMakeFiles/libuvHelloWorld.dir/all:
 	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/depend
 	$(MAKE) -f CMakeFiles/libuvHelloWorld.dir/build.make CMakeFiles/libuvHelloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target libuvHelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target libuvHelloWorld"
 .PHONY : CMakeFiles/libuvHelloWorld.dir/all
 
 # Include target in all.
@@ -478,7 +552,7 @@ clean: CMakeFiles/libuvHelloWorld.dir/clean
 CMakeFiles/libuvUvcat.dir/all:
 	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/depend
 	$(MAKE) -f CMakeFiles/libuvUvcat.dir/build.make CMakeFiles/libuvUvcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target libuvUvcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target libuvUvcat"
 .PHONY : CMakeFiles/libuvUvcat.dir/all
 
 # Include target in all.

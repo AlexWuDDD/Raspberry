@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named algTest
+
+# Build rule for target.
+algTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 algTest
+.PHONY : algTest
+
+# fast build rule for target.
+algTest/fast:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/build
+.PHONY : algTest/fast
+
+#=============================================================================
+# Target rules for targets named signaltest
+
+# Build rule for target.
+signaltest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 signaltest
+.PHONY : signaltest
+
+# fast build rule for target.
+signaltest/fast:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/build
+.PHONY : signaltest/fast
+
+#=============================================================================
 # Target rules for targets named libuvInterface
 
 # Build rule for target.
@@ -292,6 +318,168 @@ FileIO/test.s: FileIO/test.cpp.s
 FileIO/test.cpp.s:
 	$(MAKE) -f CMakeFiles/FileIOTest.dir/build.make CMakeFiles/FileIOTest.dir/FileIO/test.cpp.s
 .PHONY : FileIO/test.cpp.s
+
+SIGNAL/main.o: SIGNAL/main.cpp.o
+
+.PHONY : SIGNAL/main.o
+
+# target to build an object file
+SIGNAL/main.cpp.o:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/main.cpp.o
+.PHONY : SIGNAL/main.cpp.o
+
+SIGNAL/main.i: SIGNAL/main.cpp.i
+
+.PHONY : SIGNAL/main.i
+
+# target to preprocess a source file
+SIGNAL/main.cpp.i:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/main.cpp.i
+.PHONY : SIGNAL/main.cpp.i
+
+SIGNAL/main.s: SIGNAL/main.cpp.s
+
+.PHONY : SIGNAL/main.s
+
+# target to generate assembly for a file
+SIGNAL/main.cpp.s:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/main.cpp.s
+.PHONY : SIGNAL/main.cpp.s
+
+SIGNAL/test.o: SIGNAL/test.cpp.o
+
+.PHONY : SIGNAL/test.o
+
+# target to build an object file
+SIGNAL/test.cpp.o:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/test.cpp.o
+.PHONY : SIGNAL/test.cpp.o
+
+SIGNAL/test.i: SIGNAL/test.cpp.i
+
+.PHONY : SIGNAL/test.i
+
+# target to preprocess a source file
+SIGNAL/test.cpp.i:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/test.cpp.i
+.PHONY : SIGNAL/test.cpp.i
+
+SIGNAL/test.s: SIGNAL/test.cpp.s
+
+.PHONY : SIGNAL/test.s
+
+# target to generate assembly for a file
+SIGNAL/test.cpp.s:
+	$(MAKE) -f CMakeFiles/signaltest.dir/build.make CMakeFiles/signaltest.dir/SIGNAL/test.cpp.s
+.PHONY : SIGNAL/test.cpp.s
+
+algorithm/arrayTest.o: algorithm/arrayTest.cpp.o
+
+.PHONY : algorithm/arrayTest.o
+
+# target to build an object file
+algorithm/arrayTest.cpp.o:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/arrayTest.cpp.o
+.PHONY : algorithm/arrayTest.cpp.o
+
+algorithm/arrayTest.i: algorithm/arrayTest.cpp.i
+
+.PHONY : algorithm/arrayTest.i
+
+# target to preprocess a source file
+algorithm/arrayTest.cpp.i:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/arrayTest.cpp.i
+.PHONY : algorithm/arrayTest.cpp.i
+
+algorithm/arrayTest.s: algorithm/arrayTest.cpp.s
+
+.PHONY : algorithm/arrayTest.s
+
+# target to generate assembly for a file
+algorithm/arrayTest.cpp.s:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/arrayTest.cpp.s
+.PHONY : algorithm/arrayTest.cpp.s
+
+algorithm/linklist.o: algorithm/linklist.cpp.o
+
+.PHONY : algorithm/linklist.o
+
+# target to build an object file
+algorithm/linklist.cpp.o:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/linklist.cpp.o
+.PHONY : algorithm/linklist.cpp.o
+
+algorithm/linklist.i: algorithm/linklist.cpp.i
+
+.PHONY : algorithm/linklist.i
+
+# target to preprocess a source file
+algorithm/linklist.cpp.i:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/linklist.cpp.i
+.PHONY : algorithm/linklist.cpp.i
+
+algorithm/linklist.s: algorithm/linklist.cpp.s
+
+.PHONY : algorithm/linklist.s
+
+# target to generate assembly for a file
+algorithm/linklist.cpp.s:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/linklist.cpp.s
+.PHONY : algorithm/linklist.cpp.s
+
+algorithm/main.o: algorithm/main.cpp.o
+
+.PHONY : algorithm/main.o
+
+# target to build an object file
+algorithm/main.cpp.o:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/main.cpp.o
+.PHONY : algorithm/main.cpp.o
+
+algorithm/main.i: algorithm/main.cpp.i
+
+.PHONY : algorithm/main.i
+
+# target to preprocess a source file
+algorithm/main.cpp.i:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/main.cpp.i
+.PHONY : algorithm/main.cpp.i
+
+algorithm/main.s: algorithm/main.cpp.s
+
+.PHONY : algorithm/main.s
+
+# target to generate assembly for a file
+algorithm/main.cpp.s:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/main.cpp.s
+.PHONY : algorithm/main.cpp.s
+
+algorithm/test.o: algorithm/test.cpp.o
+
+.PHONY : algorithm/test.o
+
+# target to build an object file
+algorithm/test.cpp.o:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/test.cpp.o
+.PHONY : algorithm/test.cpp.o
+
+algorithm/test.i: algorithm/test.cpp.i
+
+.PHONY : algorithm/test.i
+
+# target to preprocess a source file
+algorithm/test.cpp.i:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/test.cpp.i
+.PHONY : algorithm/test.cpp.i
+
+algorithm/test.s: algorithm/test.cpp.s
+
+.PHONY : algorithm/test.s
+
+# target to generate assembly for a file
+algorithm/test.cpp.s:
+	$(MAKE) -f CMakeFiles/algTest.dir/build.make CMakeFiles/algTest.dir/algorithm/test.cpp.s
+.PHONY : algorithm/test.cpp.s
 
 libuv/UDP/main.o: libuv/UDP/main.cpp.o
 
@@ -598,6 +786,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... algTest"
+	@echo "... signaltest"
 	@echo "... libuvInterface"
 	@echo "... libuvDNS"
 	@echo "... libuvTcpSever"
@@ -613,6 +803,24 @@ help:
 	@echo "... FileIO/test.o"
 	@echo "... FileIO/test.i"
 	@echo "... FileIO/test.s"
+	@echo "... SIGNAL/main.o"
+	@echo "... SIGNAL/main.i"
+	@echo "... SIGNAL/main.s"
+	@echo "... SIGNAL/test.o"
+	@echo "... SIGNAL/test.i"
+	@echo "... SIGNAL/test.s"
+	@echo "... algorithm/arrayTest.o"
+	@echo "... algorithm/arrayTest.i"
+	@echo "... algorithm/arrayTest.s"
+	@echo "... algorithm/linklist.o"
+	@echo "... algorithm/linklist.i"
+	@echo "... algorithm/linklist.s"
+	@echo "... algorithm/main.o"
+	@echo "... algorithm/main.i"
+	@echo "... algorithm/main.s"
+	@echo "... algorithm/test.o"
+	@echo "... algorithm/test.i"
+	@echo "... algorithm/test.s"
 	@echo "... libuv/UDP/main.o"
 	@echo "... libuv/UDP/main.i"
 	@echo "... libuv/UDP/main.s"

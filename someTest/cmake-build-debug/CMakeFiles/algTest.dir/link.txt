@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/algTest.dir/algorithm/main.cpp.o CMakeFiles/algTest.dir/algorithm/test.cpp.o CMakeFiles/algTest.dir/algorithm/arrayTest.cpp.o CMakeFiles/algTest.dir/algorithm/linklist.cpp.o  -o algTest  -L/usr/local/lib 

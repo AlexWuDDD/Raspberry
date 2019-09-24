@@ -42,3 +42,9 @@ target_link_libraries(libuvDNS uv)
 
 add_executable(libuvInterface libuv/interfaces/main.cpp)
 target_link_libraries(libuvInterface uv)
+
+add_executable(signaltest SIGNAL/main.cpp SIGNAL/test.cpp)
+
+add_executable(algTest algorithm/main.cpp  algorithm/test.cpp
+        algorithm/arrayTest.cpp
+        algorithm/linklist.cpp)

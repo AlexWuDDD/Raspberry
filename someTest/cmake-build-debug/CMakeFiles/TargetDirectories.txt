@@ -1,5 +1,7 @@
 /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/algTest.dir
+/tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/signaltest.dir
 /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/libuvInterface.dir
 /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/libuvDNS.dir
 /tmp/tmp.t0bl1udGgi/cmake-build-debug/CMakeFiles/libuvTcpSever.dir

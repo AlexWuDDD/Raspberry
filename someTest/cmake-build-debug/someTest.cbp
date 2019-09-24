@@ -37,6 +37,98 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="algTest">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/algTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 algTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algTest/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/algTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 algTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signaltest">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/signaltest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 signaltest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signaltest/fast">
+				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/signaltest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 signaltest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.t0bl1udGgi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="libuvInterface">
 				<Option output="/tmp/tmp.t0bl1udGgi/cmake-build-debug/libuvInterface" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.t0bl1udGgi/cmake-build-debug"/>
@@ -595,6 +687,36 @@
 		</Unit>
 		<Unit filename="/tmp/tmp.t0bl1udGgi/FileIO/test.h">
 			<Option target="FileIOTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/SIGNAL/main.cpp">
+			<Option target="signaltest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/SIGNAL/test.cpp">
+			<Option target="signaltest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/SIGNAL/test.h">
+			<Option target="signaltest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/arrayTest.cpp">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/arrayTest.h">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/linklist.cpp">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/linklist.h">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/main.cpp">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/test.cpp">
+			<Option target="algTest"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.t0bl1udGgi/algorithm/test.h">
+			<Option target="algTest"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.t0bl1udGgi/libuv/UDP/main.cpp">
 			<Option target="libuvUDP"/>

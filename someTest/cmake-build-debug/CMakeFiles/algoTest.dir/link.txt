@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/algoTest.dir/algorithm/main.cpp.o  -o algoTest  -L/usr/local/lib 
